@@ -30,6 +30,7 @@
 import { defineComponent, ref, onMounted } from 'vue';
 import AppCard from './AppCard.vue';
 import MarkdownPreview from './MarkdownPreview.vue';
+import appInfoJSON from './appinfo.json';
 
 export default defineComponent({
   name: 'Main',
@@ -52,64 +53,7 @@ curl https://sh.linglong.space | sh
   setup() {
     const appList = ref([]);
     onMounted(() => {
-      appList.value = [
-        {
-          id: 'com.qq.weixin.deepin',
-          name: '微信',
-          imageURI:
-            'https://dstore-metadata.deepin.cn/images/deepin.com.wechat_cover_zh-CN_bc82a1b5.jpeg',
-        },
-        {
-          id: 'cn.wps.wps-office',
-          name: 'WPS Office 2019 For Linux',
-          imageURI:
-            'https://dstore-metadata.deepin.cn/images/wps-office_coverHD_zh-CN_fd6b8447.jpeg',
-        },
-        {
-          id: 'com.qq.im.deepin',
-          name: 'QQ',
-          imageURI: 'https://dstore-metadata.deepin.cn/images/deepin.com.qq.im_cover_en-US.png',
-        },
-        {
-          id: 'cn.google.chrome',
-          name: 'Google Chrome',
-          imageURI:
-            'https://dstore-metadata.deepin.cn/images/google-chrome-stable_cover_zh-CN_c766e6da.jpeg',
-        },
-        {
-          id: 'com.163.music',
-          name: 'Netease Cloud Music',
-          imageURI:
-            'https://dstore-metadata.deepin.cn/images/netease-cloud-music_cover_zh-CN_088c14f3.jpeg',
-        },
-        {
-          id: 'org.mozilla.firefox',
-          name: 'Firefox',
-          imageURI:
-            'https://dstore-metadata.deepin.cn/images/firefox-dde_coverHD_en-US_197bc29e.jpeg',
-        },
-        {
-          id: 'com.visualstudio.code',
-          name: 'VS Code',
-          imageURI: 'https://dstore-metadata.deepin.cn/images/code_coverHD_zh-CN_946f8495.jpeg',
-        },
-        {
-          id: 'org.videolan.vlc',
-          name: 'VLC',
-          imageURI: 'https://dstore-metadata.deepin.cn/images/vlc_cover_en-US.jpg',
-        },
-        {
-          id: 'com.baidu.baidunetdisk',
-          name: 'Baidu Netdisk',
-          imageURI: 'https://dstore-metadata.deepin.cn/images/deepin.com.baidu.pan_cover_en-US.png',
-        },
-        {
-          id: 'com.xunlei.download',
-          name: 'ThunderSpeed',
-          imageURI:
-            'https://dstore-metadata.deepin.cn/images/deepin.com.thunderspeed_cover_en-US.png',
-        },
-      ];
+      appList.value = appInfoJSON.info;
     });
     return {
       appList,
