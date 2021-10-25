@@ -20,7 +20,7 @@
     </div>
     <div id="card-gird">
       <div v-for="item in appList" :key="item.id">
-        <AppCard :imageURI="item.imageURI" :name="item.name" :id="item.id"> </AppCard>
+        <AppCard  v-if="item.isShow" :imageURI="item.imageURI" :name="item.name" :id="item.id"> </AppCard>
       </div>
     </div>
   </div>
