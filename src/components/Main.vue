@@ -53,7 +53,9 @@ curl https://sh.linglong.space | sh
   setup() {
     const appList = ref([]);
     onMounted(() => {
-      appList.value = appInfoJSON.info;
+       appList.value = appInfoJSON.info.filter(function(item){
+              return item.isShow
+            });
     });
     return {
       appList,
