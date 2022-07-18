@@ -19,7 +19,7 @@
     {
       "id": "com.qq.im.deepin",
       "name": "QQ (wine)",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.qq.im.deepin_cover_zh_CN.jpeg",
       "description": "QQ (wine)是一款基于Internet的即时通信软件。支持在线聊天、视频电话、点对点断点续传文件、网络硬盘等多种功能。QQ作为一种方便、高效的聊天工具，是中国目前使用最广泛的即时通信软件。",
       "category": "chat"
@@ -27,7 +27,7 @@
     {
       "id": "cn.google.chrome",
       "name": "Chrome",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/cn.google.chrome_cover_zh_CN.jpeg",
       "description": "畅享全方位的快速体验；利用 Google 智能工具，高效处理各种事务；有 Chrome 安保措施保驾护航，网上冲浪再不必畏手畏脚；随时随地，无所不能。",
       "category": "internet"
@@ -35,7 +35,7 @@
     {
       "id": "com.163.music",
       "name": "网易云音乐",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.163.music_cover_zh_CN.jpeg",
       "description": "网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，在线音乐服务主打歌单、社交、大牌推荐和音乐指纹，以歌单、DJ节目、社交、地理位置为核心要素，主打发现和分享。",
       "category": "music"
@@ -43,7 +43,7 @@
     {
       "id": "com.sougou.sogoupinyin",
       "name": "搜狗拼音输入法",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.sougou.sogoupinyin_cover_zh_CN.jpeg",
       "description": "搜狗输入法，拥有超大中文词库，输入更加精准，智能。搜狗智能旺仔带你用AI表达，斗图，妙语，输入更加有趣。",
       "category": "system"
@@ -51,7 +51,7 @@
     {
       "id": "deepin-graphics-driver-manager",
       "name": "显卡驱动管理器",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/deepin-graphics-driver-manager_cover_zh_CN.jpeg",
       "description": "显卡驱动管理器是一款小巧、简单易用的显卡驱动管理工具，包括了显卡驱动问题探测、显卡驱动方案安装、切换、还原等功能。",
       "category": "system"
@@ -59,7 +59,7 @@
     {
       "id": "com.mozilla.firefox-zh",
       "name": "火狐浏览器中国版",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.mozilla.firefox-zh_cover_zh_CN.jpeg",
       "description": "火狐浏览器是一个安全高效的浏览器，它具有速度快、隐私保护、丰富的插件资源、不同设备之间同步数据、分页浏览、个性化定制等特性。",
       "category": "internet"
@@ -67,7 +67,7 @@
     {
       "id": "com.visualstudio.code",
       "name": "Visual Studio Code",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.visualstudio.code_cover_zh_CN.jpeg",
       "description": "Visual Studio Code是一款轻量级代码编辑器，它具有语法高亮、可定制的热键绑定、括号匹配、代码片段收集、代码调试、自定义语言和主题、支持扩展/插件等功能。",
       "category": "development"
@@ -75,7 +75,7 @@
     {
       "id": "fcitx-sunpinyin",
       "name": "Sunpinyin",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/fcitx-sunpinyin_cover_zh_CN.jpeg",
       "description": "fcitx-sunpinyin是在fcitx平台下的一个输入法，Free Chiese Input Toy for X 是一个以 GPL方式发布的、基于XIM的简体中文输入法(即原来的G五笔)，拼音（全拼和双拼），包括区位以及码表输入模块，是在Linux操作系统中使用的中文输入法。sunpinyin是建立在中文输入上的静态语言模型。支持多种输入平台和多款操作系统，比如说ibus，fcitx的XIM，Mac OS X。",
       "category": "system"
@@ -83,7 +83,7 @@
     {
       "id": "org.videolan.vlc",
       "name": "VLC",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.videolan.vlc_cover_zh_CN.jpeg",
       "description": "VLC是一款自由、开源的跨平台多媒体播放器及框架，它支持大多数的音频与视频解码器及文件格式，还可以播放大多数多媒体文件，以及DVD、音频CD、VCD及各类流媒体协议。",
       "category": "video"
@@ -91,7 +91,7 @@
     {
       "id": "com.iflytek.iflyime",
       "name": "iflyIME",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.iflytek.iflyime_cover_zh_CN.jpeg",
       "description": "讯飞输入法图聆版，是由讯飞推出的一款输入软件，集语音、五笔、拼音、手写等多种输入方式于一体，又可以在同一界面实现多种输入方式平滑切换，符合用户使用习惯，大大提升输入速度。独家推出方言语音输入，支持多种方言输入，开启语音识别新时代。\n*成功安装后请注销或者重启电脑，使用Ctrl+Shift切换到该输入法。",
       "category": "system"
@@ -99,7 +99,7 @@
     {
       "id": "com.baidu.baidunetdisk",
       "name": "百度网盘",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.baidu.baidunetdisk_cover_zh_CN.jpeg",
       "description": "百度网盘为百度旗下的一款云存储产品，用户可以轻松将自己的文件上传到网盘上，并可跨终端随时随地查看和分享。",
       "category": "internet"
@@ -107,7 +107,7 @@
     {
       "id": "com.xunlei.download",
       "name": "迅雷下载",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.xunlei.download_cover_zh_CN.jpeg",
       "description": "“十八年技术沉淀，专注下载传输，成就用户信赖的必备工具”，迅雷团队首次推出 linux 界面版本，为国产芯片和国产操作系统助力，为用户提供极速，流畅，便捷的下载服务。\n\n【支持国芯、支持国产操作系统】\n\n       支持多种芯片，适配龙芯，适配国产操作系统。\n\n【一样下载体验】\n\n       一样强大而稳定的下载内核，简洁的操作界面，一样的下载速度，一样的下载信息呈现。\n\n【简约的界面交互】 　　\n\n       简约设计，精致的简约体验；linux 迅雷界面尺寸更加小巧，小屏幕也能适应。　\n\n【强大的软件框架】\n\n       linux 迅雷使用基于 “Electron” 的软件框架，使界面响应将更加流畅，文字显示效果更加清晰细腻。\n\n",
       "category": "internet"
@@ -115,7 +115,7 @@
     {
       "id": "com.playonlinux.playonlinux",
       "name": "PlayOnLinux",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.playonlinux.playonlinux_cover_zh_CN.jpeg",
       "description": "PlayOnLinux是一款Wine的前端程序，它可以实现在Linux和Mac OS X上运行Windows应用程序，支持使用Dosbox来安装基于Dos的程序和游戏。",
       "category": "others"
@@ -123,7 +123,7 @@
     {
       "id": "org.gimp",
       "name": "gimp",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.gimp_cover_zh_CN.jpeg",
       "description": "GIMP是一款跨平台的图像处理软件，支持BMP、GIF、JPG、PNG等格式的图像处理。GIMP支持绝大多数的PhotoShop插件，既可以作为简单的画图工具，又可以作为专业的照片处理工具，包括照片润饰、图像合成、图像格式转换等。",
       "category": "graphics"
@@ -131,7 +131,7 @@
     {
       "id": "com.qq.tenvideo",
       "name": "腾讯视频",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.qq.tenvideo_cover_zh_CN.jpeg",
       "description": "腾讯视频，是定位于中国最大在线视频媒体平台，同时也是一款视频播放器。其以丰富的内容、极致的观看体验、便捷的登录方式、24小时多平台无缝应用体验以及快捷分享的产品特性，满足用户在线观看视频的需求。",
       "category": "video"
@@ -139,7 +139,7 @@
     {
       "id": "org.mozilla.firefox-nal",
       "name": "火狐浏览器国际版",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.mozilla.firefox-nal_cover_zh_CN.jpeg",
       "description": "火狐浏览器是一个安全高效的浏览器，它具有速度快、隐私保护、丰富的插件资源、不同设备之间同步数据、分页浏览、个性化定制等特性。",
       "category": "internet"
@@ -147,7 +147,7 @@
     {
       "id": "com.qihoo.360safe",
       "name": "360安全卫士",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.qihoo.360safe_cover_zh_CN.jpeg",
       "description": "360安全卫士Linux国产化专版由奇虎360出品的一款完全自主知识产权的安全卫士类产品，具有多种安全防护体系和云主动防御的特性，能有效防御系统中的安全问题，实现与传统Windows平台同样流畅的使用体验，满足国产平台的安全需求。",
       "category": "system"
@@ -155,7 +155,7 @@
     {
       "id": "com.qihoo.360zip",
       "name": "360压缩(Linux版)",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.qihoo.360zip_cover_zh_CN.jpeg",
       "description": "国产系统适配专版360压缩是一款旨在服务各国产Linux操作系统的专业压缩软件，包含强力压缩、分卷、加密和自解压等模块，简单易用；基本可以满足所有的压缩和解压缩需求，支持的格式多达42种，如主流的rar、zip、7z、iso等压缩文件。解压缩速度快，支持多核高速压缩，支持多核并行压缩，压缩速度可提升至6倍，相比传统Linux压缩软件更快更轻巧，而且大幅简化了传统Linux系统下通过命令行解/压缩得繁琐操作。软件快速轻巧、兼容性好、更安全，界面简洁友好，使用方便。",
       "category": "office"
@@ -163,7 +163,7 @@
     {
       "id": "com.qq.office.deepin",
       "name": "TIM",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.qq.office.deepin_cover_zh_CN.jpeg",
       "description": "腾讯TIM是一款针对办公场景的IM客户端，在QQ轻聊版的基础上加入了协同办公服务的支持，而且可使用QQ号登录，好友、消息完全同步，支持多人在线编辑Word、Excel文档等。",
       "category": "chat"
@@ -171,7 +171,7 @@
     {
       "id": "org.gnome.gnome-disk-utility",
       "name": "Disks",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.gnome.gnome-disk-utility_cover_zh_CN.jpeg",
       "description": "Disks是一款磁盘管理工具，它可以读取硬盘、光驱、U盘等信息，同时还具有查看硬盘详细信息、格式化硬盘、编辑分区类型、创建镜像文件等功能。",
       "category": "system"
@@ -179,7 +179,7 @@
     {
       "id": "org.7-zip.7zip-gui",
       "name": "7-Zip",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.7-zip.7zip-gui_cover_zh_CN.jpeg",
       "description": "7-Zip是一款适用于多语言的压缩/解压缩软件，它支持极高压缩比的7z格式以及较高压缩比的ZIP/GZIP格式，提供完善的加密算法、文件管理器、命令行、自释放压缩包功能，同时集成Linux资源管理器，支持Far Manager插件。",
       "category": "system"
@@ -187,7 +187,7 @@
     {
       "id": "org.nongnu.synaptic",
       "name": "新立得软件包管理器",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.nongnu.synaptic_cover_zh_CN.jpeg",
       "description": "新立得软件包管理器是一款软件包管理工具。它是dpkg命令的图形化前端，或者说是前端软件套件管理工具。它能够在图形界面内完成LINUX系统软件的搜寻、安装和删除，相当于终端里的apt命令。",
       "category": "system"
@@ -195,7 +195,7 @@
     {
       "id": "com.opera.browser",
       "name": "Opera",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.opera.browser_cover_zh_CN.jpeg",
       "description": "Opera是一款网络浏览器，它具有网络同步，密码管理、会话管理、鼠标手势、键盘快捷键、内置搜索引擎、智能弹出式广告拦截、网址的过滤和主题皮肤、插件扩展等功能。",
       "category": "internet"
@@ -203,7 +203,7 @@
     {
       "id": "org.libreoffice.libreoffice",
       "name": "LibreOffice",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.libreoffice.libreoffice_cover_zh_CN.jpeg",
       "description": "LibreOffice是一款功能强大的办公套件，可用于文本文档、电子表格、演示文稿、绘图、数据库以及数学公式编辑和处理，libreoffice拥有强大的数据导入和导出功能，能直接导入PDF文档、微软Works，支持主要的OpenXML格式。",
       "category": "office"
@@ -211,7 +211,7 @@
     {
       "id": "com.github.stacer",
       "name": "Stacer",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.github.stacer_cover_zh_CN.jpeg",
       "description": "Stacer是一款Linux系统优化工具，有系统资源的监控、系统垃圾的清理、软件卸载、清理应用程序缓存 、关闭开启自启动服务等功能，是一款非常实用的 Linux 系统优化工具。",
       "category": "system"
@@ -219,7 +219,7 @@
     {
       "id": "com.github.etcher",
       "name": "Etcher",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.github.etcher_cover_zh_CN.jpeg",
       "description": "Etcher 是一款可以将镜像文件刻录到USB设备或闪存卡中的工具应用，支持傻瓜式操作，只需要三步就可以帮助用户自动刻录了。首先选择镜像，然后选择要刻录到的设备，如果只有一个可以自动识别，最后点击可以了就可以了。",
       "category": "system"
@@ -227,7 +227,7 @@
     {
       "id": "org.qbittorrent.qbittorrent",
       "name": "qBittorrent",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.qbittorrent.qbittorrent_cover_zh_CN.jpeg",
       "description": "qBittorrent是一个轻量级BitTorrent客户端，它支持文件上传/下载、支持DHT网络、数据交换、文件选择性下载、预览媒体文件、支持Unicode、支持代理连接、远程控制等功能。",
       "category": "internet"
@@ -235,7 +235,7 @@
     {
       "id": "com.oray.sunlogin.client",
       "name": "向日葵远程控制",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.oray.sunlogin.client_cover_zh_CN.jpeg",
       "description": "向日葵远程控制软件是由上海贝锐科技自主研制的一款远程控制软件，提供控制电脑与控制手机服务。向日葵远程控制软件拥有10年远程控制经验和专业的开发与技术团队，更支持Windows、Linux、Mac、Android、iOS多平台使用。为千万个人用户提供远程服务，为企业用户提供安全、稳定、高效的定制化解决方案。\n\n通过向日葵你可以在世界上任何地点、任何网络中，轻松实现手机控制手机，手机控制电脑，电脑控制电脑。向日葵的主要功能有远程桌面控制、桌面监控、远程文件传输、远程摄像头监控、远程管理、CMD命令行、远程ssh等。\n\n只需要在2台设备同时下载并安装向日葵即可实现远程操控。 \n\n1、 远程桌面 \n从世界任何地方使用移动设备或电脑远程访问您的远端电脑桌面，向日葵采用独有的远程桌面协议，让你轻松浏览文件、观看图片等。同时面对2G/3G异动终端，享受跨平台的极速远程桌面访问，同时支持黑屏模式保护隐私。 \n2、桌面观看 \n用于远程桌面监控，不改变被控端任何设置。 \n3、远程摄像头 \n实时查看远程主机摄像头周围的情况，支持多摄像头切换，实现全方位的远程监控。 \n4、远程文件 \n方便快捷的让远程文件或本地文件互相传输和同步，安全稳定。 \n5、搭建 \n三步完成搭建，高效快速互联。 \n6、远程开机 \n无论远程主机电脑是休眠或者关机状态，一键即可轻松开启远程主机电脑。（远程开机需要搭配开机棒，开机棒详情请见官网sunlogin.oray.com）",
       "category": "internet"
@@ -243,7 +243,7 @@
     {
       "id": "org.telegram-desktop",
       "name": "Telegram",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.telegram-desktop_cover_zh_CN.jpeg",
       "description": "Telegram是一个聊天应用软件，专注于速度与安全的消息传递。Telegram可以让你创建多达200人的群聊空间，另外，你可以分享高达1GB的视频。通过Telegram，您能够以安全的方式，与您的朋友进行信息交流和文件交换，以保证个人隐私不被泄露。",
       "category": "chat"
@@ -251,7 +251,7 @@
     {
       "id": "com.qq.weixin.work.deepin",
       "name": "deepin.com.weixin.work2",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.qq.weixin.work.deepin_cover_zh_CN.jpeg",
       "description": "企业微信是一款为企业打造的沟通、协同工具。企业通讯录可快捷导入，统一管理同事信息，准确完善，方便查找。贴合办公场景的沟通方式：集成电话与邮件，多样沟通，提高效率，提供回执与提醒消息，贴合办公场景。可靠的安全保障：协议全程加密，防止网络窃听，多重数据安全保护机制，抵御网络攻击和入侵。\n说明：新增支持会议功能，部分计算机可能存在无法正常显示视频会议画面。",
       "category": "chat"
@@ -259,7 +259,7 @@
     {
       "id": "com.iqiyi.deepin",
       "name": "爱奇艺（wine）",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.iqiyi.deepin_cover_zh_CN.jpeg",
       "description": "爱奇艺客户端是一款集视频、商城、购票、阅读、直播、泡泡粉丝社区等多种服务于一体的软件。爱奇艺为用户提供电影、电视剧、综艺、动漫、娱乐、热点资讯等内容，视频播放清晰流畅，操作界面简单友好。优质的纯网内容、贴心的生活服务满足用户“悦享品质、时尚青春”的生活追求。",
       "category": "video"
@@ -267,7 +267,7 @@
     {
       "id": "com.sublimetext.2",
       "name": "Sublime Text",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.sublimetext.2_cover_zh_CN.jpeg",
       "description": "Sublime Text是一个代码编辑器，它具有漂亮的用户界面和强大的功能，例如代码缩略图，Python的插件，代码段、语法高亮等。还可自定义快捷键绑定，菜单和工具栏等。\n该版本需要您自行购买长期使用授权。",
       "category": "development"
@@ -275,7 +275,7 @@
     {
       "id": "github.slacka.woeusb",
       "name": "WoeUSB",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/github.slacka.woeusb_cover_zh_CN.jpeg",
       "description": "WinUSB是一个创建Windows可引导U盘工具，支持从 ISO 镜像文件及 DVD 来创建，同时提供图形界面及命令行界面。",
       "category": "system"
@@ -283,7 +283,7 @@
     {
       "id": "com.steampowered.steam-launcher",
       "name": "Steam",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.steampowered.steam-launcher_cover_zh_CN.jpeg",
       "description": "Steam是一款方便迅速的综合性游戏平台，从动作游戏到独立游戏，各式各样，应有尽有。玩家可以在该平台上购买游戏、讨论和分享，也可以与您的好友一起进行跨平台的联机游戏。",
       "category": "game"
@@ -291,7 +291,7 @@
     {
       "id": "io.typora",
       "name": "Typora",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/io.typora_cover_zh_CN.jpeg",
       "description": "Typora是一款markdown编辑器，它将写作界面和预览界面二合为一，插入表格像在word中一样简单，支持直接拖拽插入图片，支持代码和数学公式输入，可以显示和隐藏大纲，自定义主题。",
       "category": "office"
@@ -299,7 +299,7 @@
     {
       "id": "cn.flash.flash-player-npapi",
       "name": "Adobe Flash Player",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/cn.flash.flash-player-npapi_cover_zh_CN.jpeg",
       "description": "Adobe Flash Player运行时使您无需安装即可轻松地跨浏览器和OS版本覆盖超过13亿用户，这是最畅销的硬件游戏机的11倍。",
       "category": "video"
@@ -307,7 +307,7 @@
     {
       "id": "net.launchpad.gdebi",
       "name": "软件包安装程序",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/net.launchpad.gdebi_cover_zh_CN.jpeg",
       "description": "软件包安装程序是一款deb包安装工具，允许使用图形化界面您安装本地deb软件包以解析和安装其依赖项，还可以利用gdebi以终端形式来安装。",
       "category": "system"
@@ -315,7 +315,7 @@
     {
       "id": "com.qq.music.deepin",
       "name": "QQ音乐（wine）",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.qq.music.deepin_cover_zh_CN.jpeg",
       "description": "QQ音乐是腾讯官方推出的音乐播放软件。QQ音乐不仅操作简单，用户只需登录后就可以搜索到想听的歌曲，而且QQ音乐还有着海量的正版音乐资源，支持本地和在线播放，支持歌曲mv下载等特色功能。",
       "category": "music"
@@ -323,7 +323,7 @@
     {
       "id": "com.qq.music",
       "name": "qq音乐",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.qq.music_cover_zh_CN.jpeg",
       "description": "QQ音乐是腾讯官方推出的音乐播放软件。QQ音乐不仅操作简单，用户只需登录后就可以搜索到想听的歌曲，而且QQ音乐还有着海量的正版音乐资源，支持本地和在线播放，支持歌曲mv下载等特色功能。",
       "category": "music"
@@ -331,7 +331,7 @@
     {
       "id": "cn.teamviewer.teamviewer",
       "name": "TeamViewer",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/cn.teamviewer.teamviewer_cover_zh_CN.jpeg",
       "description": "TeamViewer是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。它具有即时远程控制、远程维护、远程访问、家庭办公、在线会议/演示等功能。",
       "category": "internet"
@@ -339,7 +339,7 @@
     {
       "id": "linux.qq.com",
       "name": "QQ（linux）专业版",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/linux.qq.com_cover_zh_CN.jpeg",
       "description": "QQ Linux版是腾讯官方开发的一款基于Internet的即时通信软件，支持扫码登录、在线聊天、截屏，发送文件等。该版本优化了消息体验，完善了消息收发能力。",
       "category": "chat"
@@ -347,7 +347,7 @@
     {
       "id": "com.jetbrains.pycharm-community",
       "name": "PyCharm",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.jetbrains.pycharm-community_cover_zh_CN.jpeg",
       "description": "PyCharm Community是一个Python集成开发环境，它具有代码调试、语法高亮、Project管理、代码跳转、智能提示、自动完成、单元测试、版本控制等功能，同时支持Google App Engine和IronPython。",
       "category": "development"
@@ -355,7 +355,7 @@
     {
       "id": "com.zwsoft.zwcad",
       "name": "中望CAD-Linux预装版",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.zwsoft.zwcad_cover_zh_CN.jpeg",
       "description": "中望CAD Linux预装版是ZWSOFT研发的二维CAD软件，提供强大的看图和批注功能，以及简单的绘图和打印功能，具体包括：\n1）兼容R12、R14、2000、2004、2007、2013和2018版本的DWG/DXF文件；\n2）支持三维动态观察；\n3）支持模型和布局切换；\n4）可创建转角标注、对齐标注、角度标注、直径标注、半径标注、弧长标注、引线标注等标注对象；\n5）支持对象捕捉、栅格捕捉、正交锁定、极轴追踪等辅助绘图功能；\n6）支持点坐标查询、直线长度统计、面积统计等统计查询功能；\n7）支持实体通用编辑操作；\n8）支持文字编辑操作；\n9）支持PDF打印。",
       "category": "graphics"
@@ -363,7 +363,7 @@
     {
       "id": "com.dingtalk.deepin",
       "name": "dingtalk",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.dingtalk.deepin_cover_zh_CN.jpeg",
       "description": "钉钉是专为中国企业打造的免费沟通和协同的跨平台应用，支持文件互传、视频电话会议、商务电话、消息分层，并融合了OA、网盘、企业邮等功能。其独具特色的“ding一下”功能，可让消息传达效率更上一层楼。",
       "category": "chat"
@@ -371,7 +371,7 @@
     {
       "id": "fcitx-baidupinyin",
       "name": "百度输入法linux版",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/fcitx-baidupinyin_cover_zh_CN.jpeg",
       "description": "百度输入法Linux版是百度推出的一款输入工具，支持拼音、五笔、双拼等多种输入方式，支持云输入，独家推出英文模式，在指定应用中自动切换至英文输入，可选择应用进行配置。",
       "category": "system"
@@ -379,7 +379,7 @@
     {
       "id": "com.brave.brave-browser",
       "name": "Brave",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.brave.brave-browser_cover_zh_CN.jpeg",
       "description": "Brave是一款拦截广告的浏览器，最大的特点是速度快，可以阻止所有第三方追踪的cookies、所有的指纹识别技术、以及所有试图注入广告的脚本”。在使用Brave时你可以选择付费资助网站或者加载匿名用户广告来支持网站。",
       "category": "internet"
@@ -387,7 +387,7 @@
     {
       "id": "app.web.whatsapp",
       "name": "WhatsApp网页版",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/app.web.whatsapp_cover_zh_CN.jpeg",
       "description": "WhatsApp是一款社交通讯工具，可以即刻接收亲友和同事发送的信息。WhatsApp的功能和界面都与微信极其相似，支持分享视频、图片和链接，还具有直接关联通讯录、接收离线信息等功能。",
       "category": "chat"
@@ -395,7 +395,7 @@
     {
       "id": "com.360.browser-stable",
       "name": "360安全浏览器",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.360.browser-stable_cover_zh_CN.jpeg",
       "description": "360安全浏览器具有内核安全可控、启动速度快、网页渲染能力佳等特点，领先的国密套件支持，完整的信创迁移方案，为政企客户提供最极速、最安全、最易用的浏览器。全面支持信创主流CPU、操作系统、流版签办公插件、正版Flash插件、1080p及4K高清视频流畅播放、国密单双向通信加密、国密根证书管理、USBKEY驱动管理、显卡硬件加速（AMD系列）、用户隐私数据保护等，高效满足信创平台办公需求，打造信创平台Web应用统一支撑平台，建立基于浏览器的Web生态标准体系。\n360安全浏览器在国产计算平台上与电子公文、电子签章、电子文档、流版式办公软件（WPS、数科、书生、福昕、永中、金格、金蝶）、搜狗输入法、中间件、安全软件、打印机、OA（致远、泛微、万户等）、UKEY（龙脉、海泰）国密网关（格尔、三未信安、信安世纪、吉大正元）等近百款国产软件全面实现兼容性适配。",
       "category": "internet"
@@ -403,7 +403,7 @@
     {
       "id": "org.filezilla",
       "name": "FileZilla",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.filezilla_cover_zh_CN.jpeg",
       "description": "FileZilla是一个快速可靠的、跨平台的FTP、FTPS和SFTP客户端。它具有断点续传、超时侦测、SSL加密、多国语言、多标签界面、多协议支持、远程查找文件、站点管理和传输队列管理等功能。",
       "category": "internet"
@@ -411,7 +411,7 @@
     {
       "id": "net.sourceforge.cpug",
       "name": "CPU-G",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/net.sourceforge.cpug_cover_zh_CN.jpeg",
       "description": "CPU-G是一款CPU检测软件，它可以检测CPU名称、厂商、内核进程、内部和外部时钟、局部时钟监测等参数。",
       "category": "system"
@@ -419,7 +419,7 @@
     {
       "id": "com.jetbrains.intellij-idea-ultimate",
       "name": "IntelliJ IDEA Ultimate",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.jetbrains.intellij-idea-ultimate_cover_zh_CN.jpeg",
       "description": "IntelliJ IDEA Ultimate是一个Java语言集成开发环境，它具有智能编辑、代码自动分析、重构、支持J2EE、Ant、JUnit、丰富的导航模式、扩展代码检查、查询历史记录等功能。\n该版本需要您自行购买长期使用授权。",
       "category": "development"
@@ -427,7 +427,7 @@
     {
       "id": "net.xmind.xmind-vana",
       "name": "XMind: ZEN",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/net.xmind.xmind-vana_cover_zh_CN.jpeg",
       "description": "XMind: ZEN是一款全新的思维导图软件。操作界面简洁，稳定性高，功能强大；对所有主题进行了重新设计，支持Markdown，让你肆意头脑风暴，快速创建内容丰富的思维导图。",
       "category": "office"
@@ -435,7 +435,7 @@
     {
       "id": "system-config-printer",
       "name": "打印机",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/system-config-printer_cover_zh_CN.jpeg",
       "description": "Printers是一款用于配置系统打印机服务器的工具。它支持大多数打印机的使用，可以自动检测当前网络上的打印机，让打印服务变得更加便利。",
       "category": "system"
@@ -443,7 +443,7 @@
     {
       "id": "com.postman.postman",
       "name": "Postman",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.postman.postman_cover_zh_CN.jpeg",
       "description": "Postman是一款强大的网页调试工具，提供功能强大的 Web API & HTTP 请求调试。我们可以用来很方便的模拟get或者post或者其他方式的请求来调试接口。能够发送任何类型的HTTP 请求 (GET, HEAD, POST, PUT..)，附带任何数量的参数+ headers。",
       "category": "development"
@@ -451,7 +451,7 @@
     {
       "id": "org.virtualbox.virtualbox",
       "name": "VirtualBox 6.0",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.virtualbox.virtualbox_cover_zh_CN.jpeg",
       "description": "Oracle VM VirtualBox是一款开源的虚拟机软件，它可以虚拟化安装Windows、Mac OSX、Linux、OpenBSD、Solaris等系统。",
       "category": "system"
@@ -459,7 +459,7 @@
     {
       "id": "app.web.dingtalk",
       "name": "钉钉网页版",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/app.web.dingtalk_cover_zh_CN.jpeg",
       "description": "钉钉网页版是一个专为中小企业用户定制的沟通平台，它提供免费电话，语音或文字通信，企业通讯录，企业云盘等功能。",
       "category": "chat"
@@ -467,7 +467,7 @@
     {
       "id": "cn.androidgoogle.studio",
       "name": "Android Studio",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/cn.androidgoogle.studio_cover_zh_CN.jpeg",
       "description": "Android Studio是一个基于IntelliJ IDEA的Android集成开发环境，它提供了集成的Android开发工具用于开发和调试，同时支持Android特定重构和快速修复，对程序性能、可用性、版本兼容和其他问题进行控制捕捉，支持ProGuard和应用签名功能，自带布局编辑器等功能。",
       "category": "development"
@@ -475,7 +475,7 @@
     {
       "id": "com.foxmail.deepin",
       "name": "Foxmail",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.foxmail.deepin_cover_zh_CN.jpeg",
       "description": "Foxmail是一款电子邮件客户端软件，它提供基于Internet标准的电子邮件收发、数字签名和加密、记事本、本地邮箱邮件搜索以及反垃圾邮件等功能。",
       "category": "internet"
@@ -483,7 +483,7 @@
     {
       "id": "tv.kodi.kodi",
       "name": "Kodi",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/tv.kodi.kodi_cover_zh_CN.jpeg",
       "description": "Kodi是一个跨平台媒体中心软件，它能够播放几乎所有流行的音频和视频格式，还可以用于播放网络媒体，支持各种网络媒体协议等。",
       "category": "video"
@@ -491,7 +491,7 @@
     {
       "id": "cn.linuxgame.cstrike",
       "name": "反恐精英",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/cn.linuxgame.cstrike_cover_zh_CN.jpeg",
       "description": "反恐精英(英文：Counter-Strike;简称CS)是一种以团队合作为主的第一人称射击游戏，它是由著名游戏《半条命》(Half-Life)的其中一个游戏模组(MOD)衍生而成的游戏。虽然只是简单的一个MOD，但是它却在全世界风靡起来，WCG、CPL、ESWC等世界顶级电子竞技大赛都以CS1.6作为比赛项目。",
       "category": "game"
@@ -499,7 +499,7 @@
     {
       "id": "org.gnome.gnome-weather",
       "name": "天气",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.gnome.gnome-weather_cover_zh_CN.jpeg",
       "description": "天气是一个天气预报应用程序，通过自动定位显示单个或多个地点的当前天气状况，预测未来三天，每小时的天气预报，以及白天和黑夜的预测为一周的每一天，同时还可以切换地理位置、温度等功能。",
       "category": "others"
@@ -507,7 +507,7 @@
     {
       "id": "deepin-camera",
       "name": "相机",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/deepin-camera_cover_zh_CN.jpeg",
       "description": "相机是一款简单易用的摄像头应用工具，可实现拍照、录制视频等功能。您可以进行拍照和录制视频。打开相机后，进入拍照模式，单击拍照按钮，进行拍照。还可以单击视频按钮，进入视频模式。单击录制视频按钮进行录制，录制完成后单击结束录制按钮。同时可以查看拍摄的照片和视频。",
       "category": "graphics"
@@ -515,7 +515,7 @@
     {
       "id": "com.transmissionbt.transmission-gtk",
       "name": "Transmission",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.transmissionbt.transmission-gtk_cover_zh_CN.jpeg",
       "description": "\"Transmission是一组轻量级的BitTorrent客户端（以GUI、CLI和守护进程的形式）。\n它的所有化身都具有一个非常简单、直观的界面，在一个高效的、跨平台的后端上。\"",
       "category": "internet"
@@ -523,7 +523,7 @@
     {
       "id": "com.mysql.workvbench",
       "name": "MySQL Workbench",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.mysql.workvbench_cover_zh_CN.jpeg",
       "description": "MySQL Workbench是一款专为MySQL设计的ER/数据库建模工具，它提供了数据建模工具、SQL 开发工具和全面的管理工具，包括服务器配置、用户管理、备份等，为 Microsoft SQL Server、Microsoft Access、Sybase ASE、PostreSQL 及其他 RDBMS 表、对象和数据迁移至MySQL提供了一个全面、简单易用的解决方案。",
       "category": "development"
@@ -531,7 +531,7 @@
     {
       "id": "com.anydesk.anydesk",
       "name": "AnyDesk",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.anydesk.anydesk_cover_zh_CN.jpeg",
       "description": "AnyDesk是一款远程桌面控制应用，它使用名为 DeskRT 的底层技术，内置先进的视频解码器，使得在复杂的网络坏境下依然能让用户体验到流畅的远程桌面控制。AnyDesk支持声音传输、支持画质设置、屏幕截图，还支持与远程电脑同步剪贴板。",
       "category": "internet"
@@ -539,7 +539,7 @@
     {
       "id": "gparted",
       "name": "分区编辑器_test",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/gparted_cover_zh_CN.jpeg",
       "description": "分区编辑器是一款Linux下的功能非常强大的分区工具，分区编辑器可以创建、删除分区，也可以调整分区的大小和移动分区的位置。",
       "category": "system"
@@ -547,7 +547,7 @@
     {
       "id": "com.pscs6.deepin",
       "name": "Photoshop CS6",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.pscs6.deepin_cover_zh_CN.jpeg",
       "description": "Photoshop CS6是Adobe公司旗下最出名的图像处理工具之一，俗称PS，无论是图像处理、美工设计，还是非专业人士娱乐，都可以使用Adobe Photoshop CS6，功能十分强大，图像扫描、编辑修改、图像制作、广告创意、图像输入与输出于一体的图像工具。",
       "category": "graphics"
@@ -555,7 +555,7 @@
     {
       "id": "org.mamedev.mamedev",
       "name": "MAME",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.mamedev.mamedev_cover_zh_CN.jpeg",
       "description": "MAME是一个模拟器，也是国内玩家最熟悉和最常使用的街机模拟器之一。MAME的游戏列表里有近3万个游戏，可以运行的游戏有数千个。很多70后、80后曾迷恋的街机游戏，都可以在电脑上用MAME来运行。",
       "category": "game"
@@ -563,7 +563,7 @@
     {
       "id": "net.minecraft.minecraft-launcher",
       "name": "Minecraft",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/net.minecraft.minecraft-launcher_cover_zh_CN.jpeg",
       "description": "Minecraft是一款自由度很高的沙盒游戏，整个游戏没有剧情，每一个玩家在三维空间中透过像乐高一样的积木来组合与拼凑，自由地创造和破坏不同种类的方块。在这款游戏里，不仅可以单人娱乐，还可以多人联机一起娱乐。\n该版本需要您自行购买长期使用授权。",
       "category": "game"
@@ -571,7 +571,7 @@
     {
       "id": "org.wireshark.wireshark",
       "name": "Wireshark",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.wireshark.wireshark_cover_zh_CN.jpeg",
       "description": "Wireshark是一个网络封包分析软件，它具有获取网络封包并显示网络封包详情，同时还可以检测网络问题、检查安全相关问题、排查通信错误等功能。",
       "category": "development"
@@ -579,7 +579,7 @@
     {
       "id": "com.qq.video.deepin",
       "name": "腾讯视频（wine）",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.qq.video.deepin_cover_zh_CN.jpeg",
       "description": "腾讯视频，是定位于中国最大在线视频媒体平台，同时也是一款视频播放器。其以丰富的内容、极致的观看体验、便捷的登录方式、24小时多平台无缝应用体验以及快捷分享的产品特性，满足用户在线观看视频的需求。",
       "category": "video"
@@ -587,7 +587,7 @@
     {
       "id": "net.winegame.client",
       "name": "Wine游戏助手",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/net.winegame.client_cover_zh_CN.jpeg",
       "description": "Wine游戏助手是 Linux 上的开源游戏平台， 是开源项目 Lutris 的中国定制版。 通过Wine游戏助手，你可以在 Linux 系统中 一键安装你熟悉的 Windows 游戏，快速下载、即刻畅玩， 免去配置 Wine、DXVK，调设置、不兼容等烦恼。 与开源项目 Lutris 相比，我们拥有中国境内的服务器，组件下载速度更快， 并且游戏列表里也有更多中国常见的游戏。 Wine游戏助手支持各大游戏平台，包括但不限于Steam、暴雪战网、 Origin（橘子）、UPlay（育碧）、Epic等， 其中很多游戏都可以在 Linux 上正常运行。 就算你的游戏不在我们的一键安装列表中也没关系。 只要跟着教程一步一步操作，你就可以自行下载游戏（exe）进行安装， 也许它就能在你的 Linux 系统中正常运行。 祝您游戏愉快！ \n\n备注：刚安装不会显示任何游戏，请点击右侧边栏的“安装游戏”进入网站查看游戏列表，或者点击顶部的搜索按钮，输入游戏名称并点击“在WineGame.net上搜索”。",
       "category": "game"
@@ -595,7 +595,7 @@
     {
       "id": "com.microsoft.skype",
       "name": "skype",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.microsoft.skype_cover_zh_CN.jpeg",
       "description": "Skype是一款即时通讯软件，具备视频聊天、多人语音会议、传送文件、文字聊天等功能。它允许用户进行跨平台的视频呼叫，可与使用电脑、手机、电视、PSV等多种终端的Skype用户进行视频通话。",
       "category": "chat"
@@ -603,7 +603,7 @@
     {
       "id": "org.gnome.gnome-mines",
       "name": "扫雷",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.gnome.gnome-mines_cover_zh_CN.jpeg",
       "description": "扫雷是一款扫雷游戏，在游戏中玩家需要打开屏幕内的小方格，查看和分析方格下的数字（表示周边范围内的地雷数量），然后判断和猜测藏有地雷的方格位置，并给所有这些方格做出标记。",
       "category": "game"
@@ -611,7 +611,7 @@
     {
       "id": "com.taobao.wangwang.deepin",
       "name": "阿里旺旺",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.taobao.wangwang.deepin_cover_zh_CN.jpeg",
       "description": "阿里旺旺是一款专为淘宝会员量身定做的个人交易沟通软件，它能方便进行买家和卖家的实时沟通，提供文字聊天、语音聊天、视频聊天、文件传输、发送离线文件等功能。",
       "category": "chat"
@@ -619,7 +619,7 @@
     {
       "id": "ca.littlesvr.isomaster",
       "name": "ISO Master",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/ca.littlesvr.isomaster_cover_zh_CN.jpeg",
       "description": "ISO Master是一个光盘镜像文件编辑器，通过它可以从ISO中提取文件、添加文件到ISO、创建可引导的ISO文件等功能。",
       "category": "system"
@@ -627,7 +627,7 @@
     {
       "id": "info.smplayer.smplayer",
       "name": "SMplayer",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/info.smplayer.smplayer_cover_zh_CN.jpeg",
       "description": "SMplayer是一款跨平台的视频播放工具，可以支持大部分的视频和音频文件。它支持音频轨道切换、允许调节亮度、对比度、色调、饱和度、伽玛值，按照倍速、4倍速等多种速度回放、还可以进行音频和字幕延迟调整以同步音频和字幕。",
       "category": "video"
@@ -635,7 +635,7 @@
     {
       "id": "github.github.conky",
       "name": "Conky",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/github.github.conky_cover_zh_CN.jpeg",
       "description": "\"Conky是一个桌面环境的系统监视软件，它可以在桌面上监控系统运行状态、网络状态等参数，同时还可以自定义功能模块和界面来配置不同的Conky显示界面。\n注：需要配合Conky Manager一起使用。\"",
       "category": "system"
@@ -643,7 +643,7 @@
     {
       "id": "org.audacityteam",
       "name": "Audacity",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.audacityteam_cover_zh_CN.jpeg",
       "description": "Audacity是一款声音编辑软件，主要用于录音和编辑音频。audacity有着傻瓜式的操作界面和专业的音频处理效果，包括回声、更改节拍、减少噪音等。而且，Audacity具有的剪辑、复制、混音与特效功能，更可满足一般的编辑需求。",
       "category": "music"
@@ -651,7 +651,7 @@
     {
       "id": "org.bleachbit.bleachbit",
       "name": "BleachBit",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.bleachbit.bleachbit_cover_zh_CN.jpeg",
       "description": "BleachBit是一款开源的系统清理工具，它可以释放磁盘空间，保护您的隐私，清除缓存，删除cookies、internet历史、临时文件、日志和丢弃的垃圾文件等，支持清除应用的残留数据，切碎文件防止恢复、隐藏被删除文件的痕迹等功能。",
       "category": "system"
@@ -659,7 +659,7 @@
     {
       "id": "org.krita.krita",
       "name": "Krita",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.krita.krita_cover_zh_CN.jpeg",
       "description": "Krita是一个位图形编辑软件，其中包含绘画程序和照片编辑器，它具有多标签浏览文件、支持HDR绘图、支持3D材质及图像等功能。",
       "category": "graphics"
@@ -667,7 +667,7 @@
     {
       "id": "github.patrikx3.onenote",
       "name": "OneNote",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/github.patrikx3.onenote_cover_zh_CN.jpeg",
       "description": "OneNote是一套用于自由形式的信息获取以及多用户协作工具。可用于直接记录笔记，但也可用于收集打印的“页面”，或由其他应用程序发送过来的页面。页面可以在活页夹内部移动，同时可通过电子墨水技术添加注释，处理文字，或绘图，并且其中还可内嵌多媒体影音或Web链接。",
       "category": "office"
@@ -675,7 +675,7 @@
     {
       "id": "com.jetbrains.intellij-idea-community",
       "name": "IntelliJ IDEA Community",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.jetbrains.intellij-idea-community_cover_zh_CN.jpeg",
       "description": "IntelliJ IDEA Community是一个Java语言集成开发环境，它具有智能编辑、代码自动分析、重构、支持J2EE、Ant、JUnit、丰富的导航模式、扩展代码检查、查询历史记录等功能。",
       "category": "development"
@@ -683,7 +683,7 @@
     {
       "id": "org.inkscape.inkscape",
       "name": "Inkscape",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.inkscape.inkscape_cover_zh_CN.jpeg",
       "description": "Inkscape是一款矢量绘图软件，支持形状、路径、文本、标记、变换、渐变等SVG特性。它除了可以绘制基本的点、线、面、矩形、曲线，还可以进行三维颜色的填充等，支持JPG、PNG、TIFF等多种图片格式。",
       "category": "graphics"
@@ -691,7 +691,7 @@
     {
       "id": "org.gnome.vinagre",
       "name": "远程桌面查看器",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.gnome.vinagre_cover_zh_CN.jpeg",
       "description": "Vinagre 用来显示远程多种操作系统桌面。它使用 VNC、RDP 和 SPICE 协议，甚至可以用来连接 SSH 服务器。",
       "category": "internet"
@@ -699,7 +699,7 @@
     {
       "id": "com.calibre-ebook.calibre",
       "name": "Calibre",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.calibre-ebook.calibre_cover_zh_CN.jpeg",
       "description": "Calibre是一个“一站式”的电子书管理软件，支持EPUB、MOBI、PDF等大多数格式的电子书。您可以把Calibre当做电子书图书馆来进行图书管理，也可以使用它来进行电子书的格式转换、阅读等。",
       "category": "reading"
@@ -707,7 +707,7 @@
     {
       "id": "com.qianxin.browser-stable",
       "name": "奇安信可信浏览器",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.qianxin.browser-stable_cover_zh_CN.jpeg",
       "description": "奇安信可信浏览器是以W3C标准为基础的、专为政企打造的安全浏览器产品。它支持WebGL、GPU加速、WebAssembly等国际先进技术，支持流畅的大屏动态数据展示、播放1080P在线视频等复杂场景。同时兼容NPAPI插件技术，全面支持Flash、电子公文、流版签章应用。奇安信可信浏览器还支持国密通信，统一管控、日志审计、内网应用文件杀毒等政企常见安全上网、管控需求。适配的产品包括：WPS、永中、数科、书生、福昕、汉邦、格尔、中孚、万里红、时代亿信、卫士通等上百款应用、系统、中间件及国产打印机等硬件产品。兼容vue、react、angular、echarts、bootstrap等常用框架，跨平台体验一致、内核一致，显著降低应用系统适配、部署成本。\n奇安信可信浏览器满足政府单位、企业互联网安全、稳定、快捷的接入需求，是政企上网首选解决方案。",
       "category": "internet"
@@ -715,7 +715,7 @@
     {
       "id": "github.cytle.wechat-web-devtools",
       "name": "微信开发者工具",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/github.cytle.wechat-web-devtools_cover_zh_CN.jpeg",
       "description": "微信应用开发工具是一款微信程序开发工具，可以方便开发人员进行测试编辑结果、开发或调试等工作。支持绑定用户的微信进行调试或授权，支持检验权限、模拟大部分 SDK 的输入和输出，支持软件基于wEInre 、chrome DevTools等进行调试或开发工作。",
       "category": "development"
@@ -723,7 +723,7 @@
     {
       "id": "org.chiark.putty",
       "name": "PuTTY",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.chiark.putty_cover_zh_CN.jpeg",
       "description": "PuTTY是一套远程登陆工具，它可以连接上支持SSH、Telnet联机的站台，并且可自动取得对方的系统指纹码。建立联机以后，所有的通讯内容都是以加密的方式传输。自带SSH Forwarding的功能，具有完全模拟xterm、VT102及ECMA-48终端机的能力，支持公钥认证。",
       "category": "development"
@@ -731,7 +731,7 @@
     {
       "id": "org.deepin.foobar2000",
       "name": "foobar2000",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.deepin.foobar2000_cover_zh_CN.jpeg",
       "description": "foobar2000是一款功能强大的音频处理工具，它可以播放高质量的音频，同时支持生成媒体库、播放增益、转换媒体文件编码、提取CD和自定义的键盘快捷键等功能。",
       "category": "music"
@@ -739,7 +739,7 @@
     {
       "id": "com.github.hardinfo",
       "name": "Hardinfo",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.github.hardinfo_cover_zh_CN.jpeg",
       "description": "HardInfo是一个系统信息查看软件，它支持查看系统硬件信息、系统驱动方面的信息、系统其他信息以及生成信息报告，同时还能进行简单的性能基准测试。",
       "category": "system"
@@ -747,7 +747,7 @@
     {
       "id": "net.huangyuhui.hmcl",
       "name": "HMCL我的世界启动器",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/net.huangyuhui.hmcl_cover_zh_CN.jpeg",
       "description": "HMCL 是一个免费、开源的 Minecraft 启动器，允许玩家方便快捷地安装、管理、运行游戏，支持安装第三方插件如Forge,Optifine等。",
       "category": "game"
@@ -755,7 +755,7 @@
     {
       "id": "org.gnome.brasero",
       "name": "Brasero",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.gnome.brasero_cover_zh_CN.jpeg",
       "description": "Brasero是一款CD/DVD刻录软件，支持单次写入数据DVD和任何类型的CD，并且能够将光盘镜像写入到硬盘，其图形化的操作界面使用户能够轻松而快速的在Linux下烧录光盘。",
       "category": "system"
@@ -763,7 +763,7 @@
     {
       "id": "com.jetbrains.pycharm",
       "name": "PyCharm Professional",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.jetbrains.pycharm_cover_zh_CN.jpeg",
       "description": "PyCharm Professional是一个Python集成开发环境，它具有代码调试、语法高亮、Project管理、代码跳转、智能提示、自动完成、单元测试、版本控制等功能，同时支持Google App Engine和IronPython。\n该版本需要您自行购买长期使用授权。",
       "category": "development"
@@ -771,7 +771,7 @@
     {
       "id": "org.gnome.nautilus",
       "name": "Nautilus",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.gnome.nautilus_cover_zh_CN.jpeg",
       "description": "Nautilus是一款文件管理器，它具有文件的图形化显示，左侧导航管理，文件夹图标分类，快速搜索等功能。",
       "category": "system"
@@ -779,7 +779,7 @@
     {
       "id": "com.vivaldi.vivaldi",
       "name": "Vivaldi",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.vivaldi.vivaldi_cover_zh_CN.jpeg",
       "description": "Vivaldi是一款极速浏览器，支持英语、日语、法语、俄语等近10种语言。Vivaldi浏览器的布局与Opera浏览器非常相似，拥有不少Opera的功能，例如快速拨号界面、滑鼠手势等。另外，Vivaldi允许用户在屏幕截图上添加笔记。",
       "category": "internet"
@@ -787,7 +787,7 @@
     {
       "id": "u.utools.utools",
       "name": "uTools",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/u.utools.utools_cover_zh_CN.jpeg",
       "description": "uTools是一个极简、插件化、跨平台的现代化桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。它相当聪明，可以支持输入、拖拽、自动粘贴等作为输入源，相应的插件也早已准备就绪，统一的设计风格和操作方式，助你高效的得到结果。当你熟悉它后，能够为你节约大量时间，让你可以更加专注地改变世界。",
       "category": "system"
@@ -795,7 +795,7 @@
     {
       "id": "com.4kdownload.4kvideodownloader",
       "name": "4K Video Downloader",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.4kdownload.4kvideodownloader_cover_zh_CN.jpeg",
       "description": "4K Video Downloader 是一款在线视频下载器，允许从YouTube、Facebook、Vimeo和其他视频网站下载高质量的视频、播放列表、频道和字幕。支持智能模式，可以预设下载的格式质量信息，支持订阅，可以自动帮你下载订阅的更新内容。",
       "category": "video"
@@ -803,7 +803,7 @@
     {
       "id": "org.mozilla.firefox-esr",
       "name": "火狐浏览器ESR",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.mozilla.firefox-esr_cover_zh_CN.jpeg",
       "description": "火狐浏览器是一个安全高效的浏览器，它具有速度快、隐私保护、丰富的插件资源、不同设备之间同步数据、分页浏览、个性化定制等特性。",
       "category": "internet"
@@ -811,7 +811,7 @@
     {
       "id": "io.qt.qtcreator",
       "name": "Qt Creator",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/io.qt.qtcreator_cover_zh_CN.jpeg",
       "description": "Qt Creator为应用开发人员提供了一个跨平台的、完整的集成开发环境(IDE)，可以为多个桌面和移动设备平台(如Android和iOS)创建应用。\nQt Creator使开发团队能够使用通用的开发和调试工具在不同的开发平台上共享项目。\nQt Creator旨在满足Qt开发人员的开发需求，满足他们对简单性、可用性、生产率、可扩展性和开放性的追求，同时降低Qt新手的入门门槛。",
       "category": "development"
@@ -819,7 +819,7 @@
     {
       "id": "org.gnome.sudoku",
       "name": "数独",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.gnome.sudoku_cover_zh_CN.jpeg",
       "description": "数独是一款逻辑性强的数字填充游戏，玩家必须以数字填进每一格。数独虽然规则简单，但数字排列方式却千变万化，非常考验玩家的智商。游戏从易到难按等级设置，大大提高了游戏的趣味性和挑战性。",
       "category": "game"
@@ -827,7 +827,7 @@
     {
       "id": "com.ugetdm.uget",
       "name": "UGet",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.ugetdm.uget_cover_zh_CN.jpeg",
       "description": "Uget是一个下载管理器，它支持断点续传、监视剪贴板、Firefox插件、分类/批量下载，还支持从HTML中导入下载地址、命令行下载等功能。",
       "category": "internet"
@@ -835,7 +835,7 @@
     {
       "id": "org.fcitx-im.fcitx-table-wbpy",
       "name": "小企鹅五笔拼音输入法",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.fcitx-im.fcitx-table-wbpy_cover_zh_CN.jpeg",
       "description": "小企鹅输入法是Linux下的一款著名简体中文输入法。五笔拼音输入法支持五笔和拼音输入，易于安装使用。\n注：成功安装后请注销或者重启电脑，在“输入法配置”界面中添加该输入法。",
       "category": "system"
@@ -843,7 +843,7 @@
     {
       "id": "org.freedownloadmanager.fdm",
       "name": "Free Download Manager",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.freedownloadmanager.fdm_cover_zh_CN.jpeg",
       "description": "Free Download Manager是一款自由使用，在GPL授权下发布的开源软件。\n以BT协定下载档案，增强影音档案的支援，在下载影音档案时能够预览，并在下载完成后转成其他格式。\n下载加速器，为了让您能够以最大速度下载档案，Free Download Manager将档案切割成数个区块并同时下载。\n回复续传下载，当下载中断，您不需要重头开始。Free Download Manager会从上次以储存的地方，接续下载，以节省您的时间和金钱。\n聪明的档案管理器及强大的排程器，您可以藉FDM将下载档案依类型分类，放置在已建置的资料夹。聪明的排程器让您在设定的时间开始或暂停下载，及其他动作(启动其他应用程序、建立或中断连结)\n调整频宽使用，有数种频宽使用模式供您调整，使能同时浏览网页及下载档案。",
       "category": "internet"
@@ -851,7 +851,7 @@
     {
       "id": "com.discordapp.discord",
       "name": "Discord",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.discordapp.discord_cover_zh_CN.jpeg",
       "description": "Discord是一款专为手游玩家提供的语音聊天应用，不仅支持语音聊天功能还能发送文字和图片等信息，CPU占用低，语音聊天非常清晰。可以方便的加入语音频道和团队聊天，带有新消息提醒，可以通过分享链接来轻松将成员添加到频道，界面可以在游戏画面前端调出和显示，可以单独调节特定成员音量。",
       "category": "chat"
@@ -859,7 +859,7 @@
     {
       "id": "com.obsproject",
       "name": "Open Broadcaster Software",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.obsproject_cover_zh_CN.jpeg",
       "description": "OBS Studio是一款视频录制和直播的应用，可以捕捉游戏、窗口、视频、音频、摄像头、麦克风等内容来源，其中还内置了不少可以进行流媒体直播的服务，例如YouTube、Twitch、hitbox等，还支持自定义流媒体服务。",
       "category": "video"
@@ -867,7 +867,7 @@
     {
       "id": "app.web.gmail",
       "name": "Gmail网页版",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/app.web.gmail_cover_zh_CN.jpeg",
       "description": "Gmail是一款免费的网络邮件服务工具，它提供邮件推送、邮件搜索、根据群组查看邮件、多用户账号使用、星号标识、标签等功能。",
       "category": "internet"
@@ -875,7 +875,7 @@
     {
       "id": "github.popcorn-official.popcorn-time",
       "name": "Popcorn Time",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/github.popcorn-official.popcorn-time_cover_zh_CN.jpeg",
       "description": "Popcorn Time是一款免费看国外电影和国外电视剧的播放器工具，无需完全下载就可以直接播放YTS网站里的高清电影，并且能够加载外挂字幕文件，没有任何形式的广告，支持以高清和全高清分辨率查看内容。",
       "category": "video"
@@ -883,7 +883,7 @@
     {
       "id": "net.wpitchoune.psensor",
       "name": "Psensor",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/net.wpitchoune.psensor_cover_zh_CN.jpeg",
       "description": "PSensor是一款监控硬件温度的工具，支持监控主板、CPU、GPU、硬盘、风扇转速等硬件温度，同时支持使用桌面通知系统高温报警。",
       "category": "system"
@@ -891,7 +891,7 @@
     {
       "id": "org.gnome.gitg",
       "name": "gitg",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.gnome.gitg_cover_zh_CN.jpeg",
       "description": "gitg是git的图形化用户界面，旨在打造一个小巧、快速、便捷的可视化git存储库历史的工具。除了可视化之外，gitg还提供了几个实用工具来管理存储库和提交工作。\n目标\n浏览本地git存储库\n克隆本地和远程git存储库\n提交文件\n从提交文件中检索补丁。",
       "category": "development"
@@ -899,7 +899,7 @@
     {
       "id": "app.web.google.map",
       "name": "谷歌地图网页版",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/app.web.google.map_cover_zh_CN.jpeg",
       "description": "谷歌地图是Google公司提供的电子地图服务，包括局部详细的卫星照片。此款服务可以提供含有政区和交通以及商业信息的矢量地图、不同分辨率的卫星照片和可以用来显示地形和等高线地形视图。",
       "category": "others"
@@ -907,7 +907,7 @@
     {
       "id": "ru.browser.yandex",
       "name": "Yandex",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/ru.browser.yandex_cover_zh_CN.jpeg",
       "description": "Yandex是一款免费的浏览器，来自自俄罗斯最大的搜索引擎Yandex，在国外拥有众多的用户，具有界面简洁、浏览速度快、集成快速搜索、涡轮加速等功能，在网速缓慢的情况下，加快网页的加载速度。",
       "category": "internet"
@@ -915,7 +915,7 @@
     {
       "id": "com.notepadqq.notepadqq",
       "name": "Notepadqq",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.notepadqq.notepadqq_cover_zh_CN.jpeg",
       "description": "Notepadqq是一套纯文字编辑器，与Notepad++非常相似。Notepadqq除了可以用来制作一般的纯文字说明文件，也十分适合当作编写电脑程序的编辑器。Notepadqq支持语法高亮显示，具有搜索、查找/替换、分屏、书签、代码折叠等功能。",
       "category": "office"
@@ -923,7 +923,7 @@
     {
       "id": "com.jetbrains.clion",
       "name": "CLion",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.jetbrains.clion_cover_zh_CN.jpeg",
       "description": "CLion是一个开发C和C ++的集成开发环境，它具有快速导入启动、智能编码辅助、内置工具和集成调试器、支持多种编程语言以及插件扩展等功能，还支持版本控制系统、命令行工具、编辑器自定义等功能。\n该版本需要您自行购买长期使用授权。",
       "category": "development"
@@ -931,7 +931,7 @@
     {
       "id": "com.apowersoft.apowermanager",
       "name": "手机管理大师",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.apowersoft.apowermanager_cover_zh_CN.jpeg",
       "description": "轻松导入、导出、删除、存储各种文件资料。支持在电脑大屏预览、键盘操作，让您的照片、视频、音乐触手可及，短信、联系人、通话记录轻松传输。",
       "category": "system"
@@ -939,7 +939,7 @@
     {
       "id": "org.gnome.aisleriot",
       "name": "AisleRiot",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.gnome.aisleriot_cover_zh_CN.jpeg",
       "description": "AisleRiot是一款纸牌游戏，囊括了Windows平台下的空当接龙、蜘蛛纸牌等一系列的纸牌游戏。纸牌的玩法多种多样，从简单到复杂，以一副或多副扑克牌混合排出不同的组合，带给您轻松的休闲时光。",
       "category": "game"
@@ -947,7 +947,7 @@
     {
       "id": "com.hostbuf.finalshell",
       "name": "FinalShell",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.hostbuf.finalshell_cover_zh_CN.jpeg",
       "description": "FinalShell是一体化的服务器、网络管理软件。它不仅是SSH客户端，还是功能强大的开发运维工具，充分满足开发运维需求。支持海外服务器远程桌面加速，SSH加速，双边TCP加速，内网穿透及其他实用功能。",
       "category": "internet"
@@ -955,7 +955,7 @@
     {
       "id": "org.shotcut.shotcut",
       "name": "Shotcut",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.shotcut.shotcut_cover_zh_CN.jpeg",
       "description": "Shotcut是一款跨平台的视频编辑器软件，它支持视频特效滤镜、直接拖曳视频处理、GPU硬件加速、主流图片处理、音频/视频处理等功能。",
       "category": "video"
@@ -963,7 +963,7 @@
     {
       "id": "org.openshot.openshot",
       "name": "OpenShot",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.openshot.openshot_cover_zh_CN.jpeg",
       "description": "OpenShot是一个视频编辑软件。它支持视频实时预览并剪贴缩放、修剪和切割，还有视频的合成、图像叠加层、水印、使用搅拌机、数码变焦、视频片断以及提供更多的3D动画标题等功能。",
       "category": "video"
@@ -971,7 +971,7 @@
     {
       "id": "org.jkiss.dbeaver-ee",
       "name": "DBeaver EE（企业版）",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.jkiss.dbeaver-ee_cover_zh_CN.jpeg",
       "description": "DBeaver是一款通用的数据库管理工具和 SQL 客户端，支持 MySQL, PostgreSQL, Oracle, DB2, MSSQL, Sybase, Mimer, HSQLDB, Derby, 以及其他兼容 JDBC 的数据库。DBeaver 提供一个图形界面用来查看数据库结构、执行SQL查询和脚本，浏览和导出数据，处理BLOB/CLOB 数据，修改数据库结构等等。",
       "category": "development"
@@ -979,7 +979,7 @@
     {
       "id": "app.web.google.drive",
       "name": "谷歌云端硬盘网页版",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/app.web.google.drive_cover_zh_CN.jpeg",
       "description": "谷歌云端硬盘是一个在线云存储服务网盘，可以通过它进行创建、分享、协作各种类型的文件，具有强大的搜索、跟踪修订记录功能，同时还可以共享文件或文件夹，整合Google多项服务。",
       "category": "internet"
@@ -987,7 +987,7 @@
     {
       "id": "net.launchpad.grub-customizer",
       "name": "Grub Customizer",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/net.launchpad.grub-customizer_cover_zh_CN.jpeg",
       "description": "Grub Customizer 是GRUB2的图形化管理程序。目前，它只提供GRUB2菜单选项编辑功能：重新排序、重命名或增加/删除选项。Grub Customizer会改变boot.cfg文件，所以如果你运行”sudo update-grub”，Grub Customizer作出的改变也不会被重置。",
       "category": "system"
@@ -995,7 +995,7 @@
     {
       "id": "org.eclipse.java-ee",
       "name": "Eclipse IDE",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.eclipse.java-ee_cover_zh_CN.jpeg",
       "description": "Eclipse是一款跨平台集成开发环境，这是Eclipse为Java EE开发者定制的安装包，其中包括Java集成开发环境、数据工具平台、远程系统资源管理器、Java EE开发工具、JavaScript开发工具、Git客户端、XML编辑器和Maven、Mylyn插件。",
       "category": "development"
@@ -1003,7 +1003,7 @@
     {
       "id": "com.tencent.meeting.deepin",
       "name": "腾讯会议",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.tencent.meeting.deepin_cover_zh_CN.jpeg",
       "description": "基于腾讯21年音视频通讯经验，腾讯会议提供一站式云会议解决方案，满足企业远程沟通的线上会议需求，支持手机/平板/PC多设备端，共享高清桌面，在线文档能力，高清流畅、便捷易用、安全可靠，随时随地开会，全方位满足不同场景下的需求。",
       "category": "internet"
@@ -1011,7 +1011,7 @@
     {
       "id": "io.atom.atom",
       "name": "Atom",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/io.atom.atom_cover_zh_CN.jpeg",
       "description": "Atom是一个在线文本编辑器，它具有简洁和直观的图形界面，还支持CSS，HTML，JavaScript等网页编程语言，同时具有宏自动完成分屏、集成文件管理器等功能。",
       "category": "development"
@@ -1019,7 +1019,7 @@
     {
       "id": "org.clementine-player",
       "name": "Clementine",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.clementine-player_cover_zh_CN.jpeg",
       "description": "Clementine是一个音乐播放器和媒体库管理器，它具有搜索并播放媒体库、收听电台、标签式播放列表、转换音频格式、发现和下载 Podcast 播客、远程控制等功能。",
       "category": "music"
@@ -1027,7 +1027,7 @@
     {
       "id": "net.lutris.lutris",
       "name": "Lutris",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/net.lutris.lutris_cover_zh_CN.jpeg",
       "description": "Lutris是一个游戏平台，可以让您收集和管理游戏，几乎支持所有平台的游戏。Lutris支持原生的Linux游戏，包括商业游戏和开源游戏，也支持用Wine模拟安装的Windows游戏。",
       "category": "game"
@@ -1035,7 +1035,7 @@
     {
       "id": "com.kuaicad.cadreader",
       "name": "CAD快速看图",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.kuaicad.cadreader_cover_zh_CN.jpeg",
       "description": "CAD快速看图是一款轻量级的浏览CAD图纸软件，兼容AutoCAD各个版本和天正系列软件的DWG图纸。图纸打开速度快，浏览流畅，无需安装任何字体，有效解决中文乱码问题。精确显示钢筋符号和图案填充。同时具有测量功能，可以准确捕捉，距离尺寸随需量取。软件操作简单方便，易于使用。",
       "category": "office"
@@ -1043,7 +1043,7 @@
     {
       "id": "com.github.openra-romanovs-vengeance-sc",
       "name": "红色警戒：罗曼诺夫的复仇",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.github.openra-romanovs-vengeance-sc_cover_zh_CN.jpeg",
       "description": "红色警戒：罗曼诺夫的复仇是OpenRA红色警戒的mod之一。\n该版本的画风和原版红色警戒2保持一致，对游戏内容，游戏规则，以及平衡性做出了大量调整。\n流浪猫Nilhall对该mod进行了汉化，但该版本仅仅是其发布的测试版。\n此版本中对游戏本体和基础资源文件进行了打包，安装后即可开始游戏。",
       "category": "game"
@@ -1051,7 +1051,7 @@
     {
       "id": "org.codeblocks.codeblocks",
       "name": "Code::Blocks",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.codeblocks.codeblocks_cover_zh_CN.jpeg",
       "description": "Code::Blocks是一个开源、免费、跨平台的C++ IDE，具有可扩展插件向导功能，让你很方便的创建自己的插件。Code::Blocks是用C++编写的（用wxWidgets库），捆绑了MinGW编译器。",
       "category": "development"
@@ -1059,7 +1059,7 @@
     {
       "id": "com.youku.deepin",
       "name": "优酷（wine）",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.youku.deepin_cover_zh_CN.jpeg",
       "description": "优酷是中国知名视频网站，优酷为7亿用户提供电视剧，电影，动漫，音乐，新闻，娱乐，游戏，原创搞笑等海量影视，高清流畅播放，极速离线缓存，支持微博、微信、朋友圈一键分享。强大搜索功能，优酷在手，应有尽有！",
       "category": "video"
@@ -1067,7 +1067,7 @@
     {
       "id": "org.kde.okular",
       "name": "Okular",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.kde.okular_cover_zh_CN.jpeg",
       "description": "Okular是一个PDF文档阅读软件，支持PDF、TIFF、CHM、ODF、EPUB、mobi等文档格式。Okular可以对PDF文件进行多种标记注解，如批注、高亮、画图、 加入书签等。",
       "category": "reading"
@@ -1075,7 +1075,7 @@
     {
       "id": "com.gstarcad.cad",
       "name": "浩辰CAD 2021",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.gstarcad.cad_cover_zh_CN.jpeg",
       "description": "浩辰CAD是一款完全自主内核国际领先的CAD平台软件。经过近30年的持续研发和精益创新，软件关键指标已达国际领先水平，从PC软件发展到跨桌面应用，从单一工具到协同交互，浩辰持续为用户创造价值。\n全面兼容主流CAD图纸格式和操作习惯，设计师零成本学习快速上手。",
       "category": "graphics"
@@ -1083,7 +1083,7 @@
     {
       "id": "com.video.minitube",
       "name": "MiniTube",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.video.minitube_cover_zh_CN.jpeg",
       "description": "Minitube是一款专用于观看Youtube网络视频的播放软件，允许你浏览、播放 Youtube 视频，而无需登录网站本身。在你进行搜索时，程序会显示与你曾经搜索的关键词相关的视频。双击某个视频便可进行播放。视频会自动在新窗口中播放。录影短片可在紧凑模式在播放，它将占会满整个窗口，全屏模式更适合播放电影或时间较长的视频。",
       "category": "video"
@@ -1091,7 +1091,7 @@
     {
       "id": "com.youdao.cidian",
       "name": "有道词典（linux)",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.youdao.cidian_cover_zh_CN.jpeg",
       "description": "有道词典是中国第一个基于Linux下的互联网商业翻译软件，是网易有道与武汉深之度科技有限公司联合开发的。有道词典Linux版可以实现多语言的精准翻译，支持原声发音和智能屏幕取词与划词、图解词典等功能。",
       "category": "office"
@@ -1099,7 +1099,7 @@
     {
       "id": "net.sourceforge.xdman",
       "name": "Xtreme Download Manager",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/net.sourceforge.xdman_cover_zh_CN.jpeg",
       "description": " Xtreme Download Manager是一个P2P文件下载软件，它具有带宽控制系统、上传下载传输速度控制、下载管理智能化、积分系统、强力分享能力、支持DLP、支持多线程和队列管理、自动调节路由器设置等功能。",
       "category": "internet"
@@ -1107,7 +1107,7 @@
     {
       "id": "net.code-industry.master-pdf-editor",
       "name": "MasterPDF editor",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/net.code-industry.master-pdf-editor_cover_zh_CN.jpeg",
       "description": "Master PDF Editor 一款方便而智能的 Linux PDF 编辑器。",
       "category": "reading"
@@ -1115,7 +1115,7 @@
     {
       "id": "com.realvnc.viewer",
       "name": "VNC Viewer",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.realvnc.viewer_cover_zh_CN.jpeg",
       "description": "VNC Connect是远程控制工具，需要在被控制端远程电脑安装VNC Server之后，还需要本地安装VNC Viewer来控制远程电脑，VNC支持多种操作系统，因此可将VNC Server及VNC viewer分别安装在不同的操作系统中进行控制，也可以通过一般的网页浏览器来控制被控端。",
       "category": "internet"
@@ -1123,7 +1123,7 @@
     {
       "id": "com.softmaker.softmaker-office-2016",
       "name": "SoftMaker Office",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.softmaker.softmaker-office-2016_cover_zh_CN.jpeg",
       "description": "SoftMaker Office 是一套包括Word、电子表、演示、宏等功能的集成办公套件，几乎具备了一套办公软件所应有的全部特性，无需转换即可任意编辑和保存Microsoft Word,、Excel和PowerPoint 文件，并保有原文件的格式、功能和内容，算得上是一款微软office的替代品。",
       "category": "office"
@@ -1131,7 +1131,7 @@
     {
       "id": "org.deluge-torrent.deluge",
       "name": "deluge",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.deluge-torrent.deluge_cover_zh_CN.jpeg",
       "description": "Deluge 是一款功能全面、跨平台、多界面的 BitTorrent 客户端。 它以 libtorrent-rasterbar 为后端，拥有包括GTK+、网页和命令行 在内的多种界面。\n若您希望使用瘦客户端连接到远程服务器上的守护进程，则可能需要这个 Deluge GTK+ 用户界面。 参看：http://dev.deluge-torrent.org/wiki/UserGuide/ThinClient。",
       "category": "internet"
@@ -1139,7 +1139,7 @@
     {
       "id": "com.github.vstvideo",
       "name": "全聚合影视",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.github.vstvideo_cover_zh_CN.jpeg",
       "description": "全聚合影视 打造linux云播放平台。",
       "category": "video"
@@ -1147,7 +1147,7 @@
     {
       "id": "com.appimage-installer",
       "name": "AppImage安装器",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.appimage-installer_cover_zh_CN.jpeg",
       "description": "可以很方便的将AppImage添加到开始菜单而不必考虑获取图标等问题。",
       "category": "system"
@@ -1155,7 +1155,7 @@
     {
       "id": "github.haecker-felix.gradio",
       "name": "Gradio",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/github.haecker-felix.gradio_cover_zh_CN.jpeg",
       "description": "Gradio 是一款在线音乐播放器，让您在桌面上查找和收听你的的互联网广播电台。 Gradio内置大量电台可以让您收听喜欢的BBC电台，爵士收音机，披头士乐队等等。",
       "category": "music"
@@ -1163,7 +1163,7 @@
     {
       "id": "com.jetbrains.webstorm",
       "name": "WebStorm",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/com.jetbrains.webstorm_cover_zh_CN.jpeg",
       "description": "\"WebStorm是一个开发JavaScript的集成开发环境，它具有智能编码辅助、支持最新技术和框架、集成版本控制系统、调试，跟踪和测试等功能，同时内置了打字稿编译器、整合数以百计的项目模板等其他功能。\n该版本需要您自行购买长期使用授权。\"",
       "category": "development"
@@ -1171,7 +1171,7 @@
     {
       "id": "net.supertuxkart",
       "name": "SuperTuxKart",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/net.supertuxkart_cover_zh_CN.jpeg",
       "description": "SuperTuxKart是一个有趣的单机赛车游戏，支持4P同场竞技。游戏有四种模式：快速、时间、挑战、跟随，其中，跟随模式必须通过挑战模式后才会开启。在SuperTuxkart里您可以漂移、喷气、扔道具，是一个老少皆宜的游戏。",
       "category": "game"
@@ -1179,7 +1179,7 @@
     {
       "id": "org.kde.k3b",
       "name": "K3b",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.kde.k3b_cover_zh_CN.jpeg",
       "description": "K3b是一款全功能的CD/DVD烧录软件，除了光盘烧录之外 ，它还可以把音频光碟翻录成CD数据库所支持的任意格式。其便捷的用户操作界面，可以让您轻松从音频CD中提取音轨，或是从视频DVD中提取影辑。 ",
       "category": "system"
@@ -1187,7 +1187,7 @@
     {
       "id": "org.gnome.iagno",
       "name": "iagno",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.gnome.iagno_cover_zh_CN.jpeg",
       "description": "Iagno是一款黑白棋游戏，在8×8的棋盘上，玩家可以扮演黑棋或白棋，通过在对方棋子两侧摆放本方棋子来消除对方，从而让更多的本方棋子保留在棋盘上，获得最终的胜利。\r\n",
       "category": "game"
@@ -1195,7 +1195,7 @@
     {
       "id": "org.pdfsam.pdfsam",
       "name": "PDFsam",
-      "isShow": false,
+      "isShow": true,
       "imageURI": "./assets/org.pdfsam.pdfsam_cover_zh_CN.jpeg",
       "description": "PDFsam是一款PDF编辑工具，可以拆分、 合并、 重排PDF文件的内容。你可以分割文件的大小、 页面或书签、 将多个PDF文件合并成一个，旋转文档和也切换文档之间的页面。",
       "category": "office"
