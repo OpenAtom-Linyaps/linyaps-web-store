@@ -9,14 +9,14 @@
         >Get Linglong
       </el-button>
       <label>Linglong Space</label>
-      <el-input
+      <!-- <el-input
         id="topbar-search"
         size="medium"
         maxlength="10"
         placeholder="enter serach keywords"
         prefix-icon="el-icon-search"
       >
-      </el-input>
+      </el-input> -->
     </div>
     <div id="card-gird">
       <div v-for="item in appList" :key="item.id">
