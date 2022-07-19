@@ -43,9 +43,8 @@ export default defineComponent({
       isMarkdownPreviewShow: false,
       source: `
 Install linglong tools by:
-\`\`\`bash
-http://10.20.52.176:32582/guide/start/install.html
-\`\`\`
+
+### [Click here to install linglong environment.](http://10.20.52.176:32582/guide/start/install.html)
       `,
     };
   },
