@@ -40,9 +40,7 @@ export default defineComponent({
       source: `
 **If NO \`Linglong Installer Dialog\` popup, you MUST install linglong first:**
 
-\`\`\`text
-http://10.20.52.176:32582/guide/start/install.html
-\`\`\`
+### [Click here to install linglong environment.](http://10.20.52.176:32582/guide/start/install.html)
       `,
     };
   },
