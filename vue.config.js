@@ -5,4 +5,7 @@ module.exports = {
       return args;
     });
   },
+  configureWebpack: {
+    devtool: 'source-map'
+  }
 };
