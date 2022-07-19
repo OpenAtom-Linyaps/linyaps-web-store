@@ -40,8 +40,8 @@ export default defineComponent({
       source: `
 **If NO \`Linglong Installer Dialog\` popup, you MUST install linglong first:**
 
-\`\`\`bash
-curl https://sh.linglong.space | sh 
+\`\`\`text
+http://10.20.52.176:32582/guide/start/install.html
 \`\`\`
       `,
     };

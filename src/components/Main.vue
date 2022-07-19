@@ -44,7 +44,7 @@ export default defineComponent({
       source: `
 Install linglong tools by:
 \`\`\`bash
-curl https://sh.linglong.space | sh 
+http://10.20.52.176:32582/guide/start/install.html
 \`\`\`
       `,
     };
