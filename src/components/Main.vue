@@ -5,8 +5,7 @@
 
   <div id="main">
     <div id="topbar">
-      <el-button round type="danger" size="small" @click="isMarkdownPreviewShow = true"
-        >Get Linglong
+      <el-button round type="danger" size="small" @click="isMarkdownPreviewShow = true">Get Linglong
       </el-button>
       <label>Linglong Space</label>
       <!-- <el-input
@@ -20,15 +19,12 @@
     </div>
     <div id="card-gird">
       <div v-for="item in appList" :key="item.appId">
-        <AppCard  v-if="true" :imageURI="item.icon" :name="item.name" :id="item.id"> </AppCard>
+        <AppCard v-if="true" :imageURI="item.icon" :name="item.name" :id="item.id"> </AppCard>
       </div>
     </div>
-    <div id="page-next" >
+    <div id="page-next">
       <span class="demonstration"></span>
-      <el-pagination
-        background
-        layout="prev, pager, next"
-        :total="1000">
+      <el-pagination @current-change="nextClick" background layout="prev, pager, next" :total="1000">
       </el-pagination>
     </div>
   </div>
@@ -57,30 +53,32 @@ Install linglong tools by:
       `,
     };
   },
-  methods: {},
+  methods: {
+  },
   setup() {
     const appList = ref([]);
-    onMounted(() => {
-       axios.post('https://api-dev.linglong.space/apps/store', {
-        limit: 18,        // 参数 firstName
-        offset: 0    // 参数 lastName
-      })
-      .then(function (response) {
-        console.log(response.data.data);
-        appList.value = response.data.data.filter(function(item){
-              return item
-            });
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
 
-      //  appList.value = appInfoJSON.info.filter(function(item){
-      //         return item.isShow
-      //       });
-    });
+    const getList = (pageIndex = 1, limit = 20) => {
+      const offset = limit * (pageIndex - 1)
+      axios.post('https://api-dev.linglong.space/apps/store', {
+        limit,        // 参数 firstName
+        offset,   // 参数 lastName
+      })
+        .then(function (response) {
+          console.log(response.data.data);
+          appList.value = response.data.data
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+    }
+    onMounted(() => getList());
     return {
       appList,
+      nextClick(pageIndex) {
+        console.log(pageIndex);
+        getList(pageIndex)
+      }
     };
   },
 });
@@ -107,12 +105,12 @@ Install linglong tools by:
   flex-direction: row;
 }
 
-#topbar > .el-input {
+#topbar>.el-input {
   width: 300px;
   padding-right: 10px;
 }
 
-#topbar > :nth-child(1) {
+#topbar> :nth-child(1) {
   margin: 10px;
 }
 
