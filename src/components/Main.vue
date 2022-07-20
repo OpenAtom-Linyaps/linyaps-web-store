@@ -19,9 +19,17 @@
       </el-input> -->
     </div>
     <div id="card-gird">
-      <div v-for="item in appList" :key="item.id">
-        <AppCard  v-if="item.isShow" :imageURI="item.imageURI" :name="item.name" :id="item.id"> </AppCard>
+      <div v-for="item in appList" :key="item.appId">
+        <AppCard  v-if="true" :imageURI="item.icon" :name="item.name" :id="item.id"> </AppCard>
       </div>
+    </div>
+    <div id="page-next" >
+      <span class="demonstration"></span>
+      <el-pagination
+        background
+        layout="prev, pager, next"
+        :total="1000">
+      </el-pagination>
     </div>
   </div>
 </template>
@@ -30,7 +38,8 @@
 import { defineComponent, ref, onMounted } from 'vue';
 import AppCard from './AppCard.vue';
 import MarkdownPreview from './MarkdownPreview.vue';
-import appInfoJSON from './appinfo.json';
+// import appInfoJSON from './appinfo.json';
+import axios from 'axios';
 
 export default defineComponent({
   name: 'Main',
@@ -52,9 +61,23 @@ Install linglong tools by:
   setup() {
     const appList = ref([]);
     onMounted(() => {
-       appList.value = appInfoJSON.info.filter(function(item){
-              return item.isShow
+       axios.post('https://api-dev.linglong.space/apps/store', {
+        limit: 18,        // 参数 firstName
+        offset: 0    // 参数 lastName
+      })
+      .then(function (response) {
+        console.log(response.data.data);
+        appList.value = response.data.data.filter(function(item){
+              return item
             });
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+
+      //  appList.value = appInfoJSON.info.filter(function(item){
+      //         return item.isShow
+      //       });
     });
     return {
       appList,
@@ -103,5 +126,10 @@ Install linglong tools by:
   align-items: center;
 
   justify-content: center;
+}
+
+#page-next {
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
