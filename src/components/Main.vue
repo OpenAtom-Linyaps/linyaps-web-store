@@ -49,7 +49,7 @@ export default defineComponent({
       source: `
 Install linglong tools by:
 
-### [Click here to install linglong environment.](http://10.20.52.176:32582/guide/start/install.html)
+### [Click here to install linglong environment.](${process.env.VUE_APP_HOME_PAGE_URL}/guide/start/install.html)
       `,
     };
   },
