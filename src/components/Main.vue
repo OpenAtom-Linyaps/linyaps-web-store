@@ -57,10 +57,13 @@ Install linglong tools by:
   },
   setup() {
     const appList = ref([]);
-
+    const service = axios.create({
+      baseURL: process.env.VUE_APP_AXIOS_BASEURL, // url = base url + request url
+      timeout: 10000, // request timeout
+    })
     const getList = (pageIndex = 1, limit = 20) => {
       const offset = limit * (pageIndex - 1)
-      axios.post('https://api-dev.linglong.space/apps/store', {
+      service.post('/apps/webstore', {
         limit,        // 参数 firstName
         offset,   // 参数 lastName
       })
