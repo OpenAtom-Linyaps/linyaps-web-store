@@ -5,9 +5,9 @@
 
   <div id="main">
     <div id="topbar">
-      <el-button round type="danger" size="small" @click="isMarkdownPreviewShow = true">Get Linglong
+      <el-button round type="danger" size="small" @click="isMarkdownPreviewShow = true"> 获取玲珑
       </el-button>
-      <label>Linglong Space</label>
+      <!-- <label>Linglong Space</label> -->
       <!-- <el-input
         id="topbar-search"
         size="medium"
