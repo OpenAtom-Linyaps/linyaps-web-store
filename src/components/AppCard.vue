@@ -1,6 +1,6 @@
 <template>
   <div class="app-card">
-    <el-image style="width: 226px; height: 140px" :src="imageURI"> </el-image>
+    <el-image style="width: auto; height: 140px" :src="imageURI"> </el-image>
     <div class="app-card-control">
       <a>{{ name }}</a>
       <el-button type="warning" size="small" @click="onInstall(id)">Install</el-button>
