@@ -1,21 +1,7 @@
 <template>
-  <el-dialog v-model="isMarkdownPreviewShow">
-    <MarkdownPreview :source="source" />
-  </el-dialog>
-
   <div id="main">
     <div id="topbar">
-      <el-button round type="danger" size="small" @click="isMarkdownPreviewShow = true"> 获取玲珑
-      </el-button>
-      <!-- <label>Linglong Space</label> -->
-      <!-- <el-input
-        id="topbar-search"
-        size="medium"
-        maxlength="10"
-        placeholder="enter serach keywords"
-        prefix-icon="el-icon-search"
-      >
-      </el-input> -->
+      <el-button round type="danger" size="small" @click="gotoLink()"> 获取玲珑 </el-button>
     </div>
     <div id="card-gird">
       <div v-for="item in appList" :key="item.appId">
@@ -24,7 +10,11 @@
     </div>
     <div id="page-next">
       <span class="demonstration"></span>
-      <el-pagination @current-change="nextClick" background layout="prev, pager, next" :total="1000">
+      <el-pagination
+      @current-change="nextClick"
+      background layout="prev, pager, next"
+      :page-size="size"
+      :total="total">
       </el-pagination>
     </div>
   </div>
@@ -33,43 +23,39 @@
 <script lang="ts">
 import { defineComponent, ref, onMounted } from 'vue';
 import AppCard from './AppCard.vue';
-import MarkdownPreview from './MarkdownPreview.vue';
-// import appInfoJSON from './appinfo.json';
 import axios from 'axios';
 
 export default defineComponent({
   name: 'Main',
   components: {
     AppCard,
-    MarkdownPreview,
   },
   data() {
     return {
-      isMarkdownPreviewShow: false,
-      source: `
-Install linglong tools by:
-
-### [Click here to install linglong environment.](${process.env.VUE_APP_HOME_PAGE_URL}/guide/start/install.html)
-      `,
-    };
+    }
   },
   methods: {
+    gotoLink() {
+      window.open(`${process.env.VUE_APP_HOME_PAGE_URL}/guide/start/install.html`)
+    }
   },
   setup() {
-    const appList = ref([]);
+    const appList = ref([])
+    const total = ref()
+    const size = 20
     const service = axios.create({
       baseURL: process.env.VUE_APP_AXIOS_BASEURL, // url = base url + request url
       timeout: 10000, // request timeout
     })
-    const getList = (pageIndex = 1, limit = 20) => {
-      const offset = limit * (pageIndex - 1)
+    const getList = (pageIndex = 1, pageSize = size) => {
+      // const offset = limit * (pageIndex - 1)
       service.post('/apps/webstore', {
-        limit,        // 参数 firstName
-        offset,   // 参数 lastName
+        pageSize,        // 参数 firstName
+        page:pageIndex,   // 参数 lastName
       })
         .then(function (response) {
-          console.log(response.data.data);
-          appList.value = response.data.data
+          appList.value = response.data.data.list
+          total.value = response.data.data.total
         })
         .catch(function (error) {
           console.log(error);
@@ -78,10 +64,12 @@ Install linglong tools by:
     onMounted(() => getList());
     return {
       appList,
+      total,
+      size,
       nextClick(pageIndex) {
         console.log(pageIndex);
         getList(pageIndex)
-      }
+      },
     };
   },
 });
