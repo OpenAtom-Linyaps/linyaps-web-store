@@ -5,7 +5,8 @@
     </div>
     <div id="card-gird">
       <div v-for="item in appList" :key="item.appId">
-        <AppCard v-if="true" :imageURI="item.icon" :name="item.name" :id="item.appId"> </AppCard>
+        <AppCard v-if="true" :imageURI="item.icon" :name="item.name" :id="item.appId" :description="item.description">
+        </AppCard>
       </div>
     </div>
     <div id="page-next">

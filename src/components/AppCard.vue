@@ -1,5 +1,5 @@
 <template>
-  <div class="app-card">
+  <div class="app-card" :title="description">
     <el-image style="width: auto; height: 140px" :src="imageURI"> </el-image>
     <div class="app-card-control">
       <a>{{ name }}</a>
@@ -33,6 +33,10 @@ export default defineComponent({
       type: String,
       default: '',
     },
+    description: {
+      type: String,
+      default: '',
+    }
   },
   data() {
     return {
