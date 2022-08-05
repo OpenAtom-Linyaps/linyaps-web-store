@@ -7,6 +7,7 @@
     "serve": "vue-cli-service serve --mode dev",
     "build": "vue-cli-service build",
     "release": "vue-cli-service serve --mode release",
+    "hongkong": "vue-cli-service serve --mode hongkong",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
