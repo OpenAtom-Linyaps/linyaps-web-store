@@ -1,7 +1,7 @@
 <template>
   <div id="main">
     <div id="topbar">
-      <el-button round type="danger" size="small" @click="gotoLink()"> 获取玲珑 </el-button>
+      <el-button round type="danger" size="small" @click="gotoLink()"> Get Linglong </el-button>
     </div>
     <div id="card-gird">
       <div v-for="item in appList" :key="item.appId">
