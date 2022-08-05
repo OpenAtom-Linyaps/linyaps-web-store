@@ -6,7 +6,7 @@
     "local": "vue-cli-service serve --mode local",
     "serve": "vue-cli-service serve --mode dev",
     "build": "vue-cli-service build",
-    "release": "scp -P 30022 -r dist/* root@bg.iceyer.net:/data/www/linglong.space",
+    "release": "vue-cli-service serve --mode release",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
