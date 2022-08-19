@@ -3,7 +3,7 @@
     <div id="topbar">
       <el-button round type="danger" size="small" @click="gotoLink()"> Get Linglong </el-button>
     </div>
-    <div id="card-gird">
+    <div id="card-gird" v-loading="dataLoadingFlag">
       <div v-for="item in appList" :key="item.appId">
         <AppCard v-if="true" :imageURI="item.icon" :name="item.name" :id="item.appId" :description="item.description">
         </AppCard>
@@ -19,6 +19,7 @@
       </el-pagination>
     </div>
   </div>
+  <br>
 </template>
 
 <script lang="ts">
@@ -42,6 +43,7 @@ export default defineComponent({
   },
   setup() {
     const appList = ref([])
+    const dataLoadingFlag = ref()
     const total = ref()
     const size = 20
     const service = axios.create({
@@ -49,24 +51,24 @@ export default defineComponent({
       timeout: 10000, // request timeout
     })
     const getList = (pageIndex = 1, pageSize = size) => {
-      // const offset = limit * (pageIndex - 1)
+      dataLoadingFlag.value = true
       service.post('/apps/webstore', {
         pageSize,        // 参数 firstName
         page:pageIndex,   // 参数 lastName
-      })
-        .then(function (response) {
-          appList.value = response.data.data.list
-          total.value = response.data.data.total
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
+      }).then(function (response) {
+        appList.value = response.data.data.list
+        total.value = response.data.data.total
+        dataLoadingFlag.value = false
+      }).catch(function (error) {
+        console.log(error);
+      });
     }
     onMounted(() => getList());
     return {
       appList,
       total,
       size,
+      dataLoadingFlag,
       nextClick(pageIndex) {
         console.log(pageIndex);
         getList(pageIndex)
@@ -109,13 +111,12 @@ export default defineComponent({
 #card-gird {
   margin: 1% 5% 1% 5%;
   flex: 1 1 auto;
-
   display: grid;
-  grid-template-columns: repeat(auto-fit, 226px);
+  grid-template-columns: repeat(auto-fit, 320px);
   gap: 2em;
   align-items: center;
-
   justify-content: center;
+  text-align: center;
 }
 
 #page-next {

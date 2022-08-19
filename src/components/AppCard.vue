@@ -1,9 +1,11 @@
 <template>
   <div class="app-card" :title="description">
-    <el-image style="width: auto; height: 140px" :src="imageURI"> </el-image>
+    <el-image style="width: auto; height: 160px" :src="imageURI"> </el-image>
     <div class="app-card-control">
-      <a>{{ name }}</a>
-      <el-button type="warning" size="small" @click="onInstall(id)">Install</el-button>
+      <span>
+        {{ name }}
+        <el-button type="default" class="install-button" size="small" @click="onInstall(id)" round>Install</el-button>
+      </span>
     </div>
   </div>
   <el-dialog v-model="isMarkdownPreviewShow">
@@ -59,16 +61,31 @@ export default defineComponent({
 
 <style scoped>
 .app-card {
-  width: 226px;
-  height: 200px;
+  width: 320px;
+  height: 224px;
 }
 
 .app-card-control {
   display: flex;
   align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .app-card-control > .el-button {
   margin-left: auto;
 }
+
+.install-button {
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0em;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  border-radius: 18px;
+  padding: 6px 14px;
+  background-color: #f5f5f7;
+  color: #0071e3;
+}
+
 </style>
