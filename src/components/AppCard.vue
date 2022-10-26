@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2017 - 2022 UnionTech Software Technology Co., Ltd.
+//
+// SPDX-License-Identifier: LGPL-3.0-or-later
+
 <template>
   <div class="app-card" :title="description">
     <el-image style="width: auto; height: 160px" :src="imageURI"> </el-image>
