@@ -23,3 +23,6 @@ pnpm-debug.log*
 *.sw?
 # cache file
 */src/scripts/cache/*
+
+/yarn.lock
+/package-lock.json

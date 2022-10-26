@@ -1,44 +1,31 @@
-# store-webui
+# Linglong Web Store
 
-## Project setup
-```
+## Dependencies
+
+### Build dependencies
+
+- Node.JS >= 16
+
+## Quick Start
+
+### Install
+
+```bash
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-## Dockfile
+### Start
 
 ```bash
-docker build -t hub.deepin.com/wuhan_v23_linglong/linglong-web-store:develop-snipe .
+yarn dev
 ```
 
-```bash
-docker run --rm -it  -p 80:80/tcp hub.deepin.com/wuhan_v23_linglong/linglong-web-store:develop-snipe
-```
+## Getting involved
 
-```bash
-kubectl create deployment linglong-web-store --image=hub.deepin.com/wuhan_v23_linglong/linglong-web-store:develop-snipe
-```
+We encourage you to report issues and contribute changes
 
-- 使用 18081 端口提供服务，连接到容器的 80 端口
+* [Contribution guide for developers](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers-en). (English)
 
-```bash
-kubectl expose deployment linglong-web-store --type=NodePort --port=18081 --target-port=80
-```
+## License
+
+linglong-web-store is licensed under [LGPL-3.0-or-later](LICENSE).
