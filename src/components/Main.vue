@@ -3,30 +3,45 @@
 // SPDX-License-Identifier: LGPL-3.0-or-later
 
 <template>
-  <div id="main">
-    <div id="topbar">
-      <el-button round type="danger" size="small" @click="gotoLink()"> Get Linglong </el-button>
+  <div class='main'>
+    <!-- header -->
+    <div class='topbar'>
+      <el-button round type='danger' size='small' @click='gotoLink()'> Get Linglong</el-button>
     </div>
-    <div id="card-gird" v-loading="dataLoadingFlag">
-      <div v-for="item in appList" :key="item.appId">
-        <AppCard v-if="true" :imageURI="item.icon" :name="item.name" :id="item.appId" :description="item.description">
-        </AppCard>
+    <!-- header -->
+
+    <!-- cards -->
+    <div v-loading='dataLoadingFlag'>
+      <div v-if='!appList || appList.length === 0'>
+        <el-empty :image-size='200' />
+      </div>
+      <div v-if='appList && appList.length > 0'>
+        <div class='card-gird'>
+          <AppCard v-for='item in appList' :key='item.appId'
+                   :imageURI='item.icon'
+                   :name='item.name'
+                   :id='item.appId'
+                   :description='item.description' />
+        </div>
       </div>
     </div>
-    <div id="page-next">
-      <span class="demonstration"></span>
+    <!-- cards -->
+
+    <!-- pagination -->
+    <div class='pagination-body'>
       <el-pagination
-      @current-change="nextClick"
-      background layout="prev, pager, next"
-      :page-size="size"
-      :total="total">
+        @current-change='nextClick'
+        background layout='prev, pager, next'
+        :page-size='size'
+        :hide-on-single-page='true'
+        :total='total'>
       </el-pagination>
     </div>
+    <!-- pagination -->
   </div>
-  <br>
 </template>
 
-<script lang="ts">
+<script lang='ts'>
 import { defineComponent, ref, onMounted } from 'vue';
 import AppCard from './AppCard.vue';
 import axios from 'axios';
@@ -37,36 +52,37 @@ export default defineComponent({
     AppCard,
   },
   data() {
-    return {
-    }
+    return {};
   },
   methods: {
     gotoLink() {
-      window.open(`${process.env.VUE_APP_HOME_PAGE_URL}/guide/start/install.html`)
-    }
+      window.open(`${process.env.VUE_APP_HOME_PAGE_URL}/guide/start/install.html`);
+    },
   },
   setup() {
-    const appList = ref([])
-    const dataLoadingFlag = ref()
-    const total = ref()
-    const size = 20
+    const appList = ref([]);
+    const dataLoadingFlag = ref();
+    const total = ref();
+    const size = 24;
     const service = axios.create({
       baseURL: process.env.VUE_APP_AXIOS_BASEURL, // url = base url + request url
       timeout: 10000, // request timeout
-    })
+    });
     const getList = (pageIndex = 1, pageSize = size) => {
-      dataLoadingFlag.value = true
-      service.post('/apps/webstore', {
-        pageSize,        // 参数 firstName
-        page:pageIndex,   // 参数 lastName
-      }).then(function (response) {
-        appList.value = response.data.data.list
-        total.value = response.data.data.total
-        dataLoadingFlag.value = false
-      }).catch(function (error) {
+      dataLoadingFlag.value = true;
+      service.get(`/api/v0/web-store/apps`, {
+        params: {
+          page: pageIndex,
+          size: pageSize,
+        },
+      }).then(function(response) {
+        appList.value = response.data.data.list;
+        total.value = response.data.data.total;
+        dataLoadingFlag.value = false;
+      }).catch(function(error) {
         console.log(error);
       });
-    }
+    };
     onMounted(() => getList());
     return {
       appList,
@@ -74,8 +90,7 @@ export default defineComponent({
       size,
       dataLoadingFlag,
       nextClick(pageIndex) {
-        console.log(pageIndex);
-        getList(pageIndex)
+        getList(pageIndex);
       },
     };
   },
@@ -83,14 +98,14 @@ export default defineComponent({
 </script>
 
 <style scoped>
-#main {
+.main {
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 100%;
 }
 
-#topbar {
+.topbar {
   height: 60px;
   width: 100%;
   flex: 0 0 auto;
@@ -103,16 +118,16 @@ export default defineComponent({
   flex-direction: row;
 }
 
-#topbar>.el-input {
+.topbar > .el-input {
   width: 300px;
   padding-right: 10px;
 }
 
-#topbar> :nth-child(1) {
+.topbar > :nth-child(1) {
   margin: 10px;
 }
 
-#card-gird {
+.card-gird {
   margin: 1% 5% 1% 5%;
   flex: 1 1 auto;
   display: grid;
@@ -123,7 +138,8 @@ export default defineComponent({
   text-align: center;
 }
 
-#page-next {
+.pagination-body {
+  margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
 }

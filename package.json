@@ -5,9 +5,9 @@
   "scripts": {
     "local": "vue-cli-service serve --mode local",
     "serve": "vue-cli-service serve --mode dev",
-    "build": "vue-cli-service build",
-    "release": "vue-cli-service serve --mode release",
     "hongkong": "vue-cli-service serve --mode hongkong",
+    "release": "vue-cli-service serve --mode release",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
