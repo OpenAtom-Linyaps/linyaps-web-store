@@ -9,8 +9,7 @@
     </div>
     <div id="card-gird" v-loading="dataLoadingFlag">
       <div v-for="item in appList" :key="item.appId">
-        <AppCard v-if="true" :imageURI="item.icon" :name="item.name" :id="item.appId" :description="item.description">
-        </AppCard>
+        <AppCard v-if="true" :imageURI="item.icon" :name="item.name" :id="item.appId" :description="item.description" />
       </div>
     </div>
     <div id="page-next">
@@ -49,16 +48,18 @@ export default defineComponent({
     const appList = ref([])
     const dataLoadingFlag = ref()
     const total = ref()
-    const size = 20
+    const size = 24
     const service = axios.create({
       baseURL: process.env.VUE_APP_AXIOS_BASEURL, // url = base url + request url
       timeout: 10000, // request timeout
     })
     const getList = (pageIndex = 1, pageSize = size) => {
       dataLoadingFlag.value = true
-      service.post('/apps/webstore', {
-        pageSize,        // 参数 firstName
-        page:pageIndex,   // 参数 lastName
+      service.get(`/api/v0/web-store/apps`, {
+        params: {
+          page: pageIndex,
+          size: pageSize,
+        }
       }).then(function (response) {
         appList.value = response.data.data.list
         total.value = response.data.data.total
