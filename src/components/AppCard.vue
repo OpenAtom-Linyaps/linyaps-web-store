@@ -4,11 +4,16 @@
 
 <template>
   <div class="app-card" :title="description">
-    <el-image style="width: auto; height: 160px" :src="imageURI"> </el-image>
+    <el-image class='app-logo' :src="imageURI"> </el-image>
     <div class="app-card-control">
       <span>
         {{ name }}
-        <el-button type="default" class="install-button" size="small" @click="onInstall(id)" round>Install</el-button>
+        <el-button class="install-button"
+                   type="default"
+                   size="small"
+                   @click="onInstall(id)"
+                   round
+        >INSTALL</el-button>
       </span>
     </div>
   </div>
@@ -84,12 +89,17 @@ export default defineComponent({
   font-size: 12px;
   line-height: 1;
   font-weight: 700;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   border-radius: 18px;
   padding: 6px 14px;
   background-color: #f5f5f7;
   color: #0071e3;
+}
+
+.app-logo {
+  width: auto;
+  height: 160px;
 }
 
 </style>
