@@ -4,7 +4,12 @@
 
 <template>
   <div class="app-card" :title="description">
-    <el-image class='app-logo' :src="imageURI"> </el-image>
+    <el-image class='app-logo' :src="imageURI" @error="onImgLoadError(this)">
+        <template #error>
+          <el-image class='app-logo' src="assets/application-x-executable.svg">
+          </el-image>
+        </template>
+    </el-image>
     <div class="app-card-control">
       <span>
         {{ name }}
@@ -99,7 +104,7 @@ export default defineComponent({
 }
 
 .app-logo {
-  width: auto;
+  width: 160px;
   height: 160px;
 }
 
