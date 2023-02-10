@@ -4,7 +4,7 @@
 
 <template>
   <div class="app-card" :title="description">
-    <el-image class='app-logo' :src="imageURI" @error="onImgLoadError(this)">
+    <el-image class='app-logo' :src="imageURI">
         <template #error>
           <el-image class='app-logo' src="assets/application-x-executable.svg">
           </el-image>
