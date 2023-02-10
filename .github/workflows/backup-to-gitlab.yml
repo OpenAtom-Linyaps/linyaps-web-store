@@ -7,6 +7,6 @@ concurrency:
 
 jobs:
   backup-to-gitlabwh:
-    uses: deepin-community/.github/.github/workflows/backup-to-gitlabwh.yml@master
+    uses: linuxdeepin/.github/.github/workflows/backup-to-gitlabwh.yml@master
     secrets:
       BRIDGETOKEN: ${{ secrets.BRIDGETOKEN }}
