@@ -11,13 +11,13 @@
 ### 安装
 
 ```bash
-yarn install
+pnpm install
 ```
 
 ### 开始
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 ## 参与贡献

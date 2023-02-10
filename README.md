@@ -11,13 +11,13 @@
 ### Install
 
 ```bash
-yarn install
+pnpm install
 ```
 
 ### Start
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 ## Getting involved

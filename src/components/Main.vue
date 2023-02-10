@@ -56,21 +56,21 @@ export default defineComponent({
   },
   methods: {
     gotoLink() {
-      window.open(`${process.env.VUE_APP_HOME_PAGE_URL}/guide/start/install.html`);
+      window.open(`${import.meta.env.VITE_APP_HOME_PAGE_URL}/guide/start/install.html`);
     },
   },
   setup() {
-    const appList = ref([]);
+    const appList = ref([] as App[]);
     const dataLoadingFlag = ref();
     const total = ref();
     const size = 24;
     const service = axios.create({
-      baseURL: process.env.VUE_APP_AXIOS_BASEURL, // url = base url + request url
+      baseURL: import.meta.env.VITE_APP_AXIOS_BASEURL, // url = base url + request url
       timeout: 10000, // request timeout
     });
     const getList = (pageIndex = 1, pageSize = size) => {
       dataLoadingFlag.value = true;
-      service.get(`/api/v0/web-store/apps`, {
+      service.get<AppsResponse>(`/api/v0/web-store/apps`, {
         params: {
           page: pageIndex,
           size: pageSize,
@@ -89,12 +89,32 @@ export default defineComponent({
       total,
       size,
       dataLoadingFlag,
-      nextClick(pageIndex) {
+      nextClick(pageIndex: number) {
         getList(pageIndex);
       },
     };
   },
 });
+
+interface AppsResponse {
+  code: number;
+  data: Data;
+}
+
+interface Data {
+  list: App[];
+  total: number;
+}
+
+interface App {
+  id: number;
+  appId: string;
+  name: string;
+  version: string;
+  arch: string;
+  icon: string;
+  description: string;
+}
 </script>
 
 <style scoped>
