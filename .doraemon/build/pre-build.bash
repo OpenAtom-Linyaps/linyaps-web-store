@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
-set -eux
+set -eu
 
-# yarn --registry=http://registry-npm.sndu.cn/ install
-NODE_OPTIONS=--openssl-legacy-provider yarn build  --mode hongkong
+if [ "${NODE16_HOME}" != "" ]; then
+  export PATH=${NODE16_HOME}/bin:$PATH
+fi
+
+yarn install
+yarn build --mode hongkong
