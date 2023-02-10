@@ -55,12 +55,13 @@ export default defineComponent({
       source: `
 **If NO \`Linglong Installer Dialog\` popup, you MUST install linglong first:**
 
-### [Click here to install linglong environment.](${process.env.VUE_APP_HOME_PAGE_URL}/guide/start/install.html)
+### [Click here to install linglong environment.](${import.meta.env.VITE_APP_HOME_PAGE_URL}/guide/start/install.html)
       `,
     };
   },
   methods: {
-    onInstall(id) {
+    onInstall(id: string) {
+      console.log("install", id)
       window.location.href = 'og://' + id;
       this.isMarkdownPreviewShow = true;
     },
