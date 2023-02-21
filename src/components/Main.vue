@@ -42,6 +42,7 @@
 </template>
 
 <script lang='ts'>
+import { ElButton, ElPagination, ElEmpty, ElLoadingDirective } from 'element-plus'
 import { defineComponent, ref, onMounted } from 'vue';
 import AppCard from './AppCard.vue';
 import axios from 'axios';
@@ -49,7 +50,10 @@ import axios from 'axios';
 export default defineComponent({
   name: 'Main',
   components: {
-    AppCard,
+    AppCard, ElButton, ElPagination, ElEmpty
+  },
+  directives: {
+    loading: ElLoadingDirective,
   },
   data() {
     return {};
@@ -62,7 +66,7 @@ export default defineComponent({
   setup() {
     const appList = ref([] as App[]);
     const dataLoadingFlag = ref();
-    const total = ref();
+    const total = ref(0);
     const size = 24;
     const service = axios.create({
       baseURL: import.meta.env.VITE_APP_AXIOS_BASEURL, // url = base url + request url

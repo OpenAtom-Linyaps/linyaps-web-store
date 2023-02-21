@@ -22,19 +22,24 @@
       </span>
     </div>
   </div>
-  <el-dialog v-model="isMarkdownPreviewShow">
-    <MarkdownPreview :source="source" />
+  <el-dialog v-model="isInstallDialogShow">
+    <div>
+      <p>
+        <strong>If NO <code>Linglong Installer Dialog</code> popup, you MUST install linglong first:</strong>
+      </p>
+      <h3><a href="https://linglong.dev/guide/start/install.html">Click here to install linglong environment.</a></h3>
+    </div>
   </el-dialog>
 </template>
 
 <script lang="ts">
+import { ElButton, ElDialog, ElImage } from 'element-plus'
 import { defineComponent } from 'vue';
-import MarkdownPreview from './MarkdownPreview.vue';
 
 export default defineComponent({
   name: 'AppCard',
   components: {
-    MarkdownPreview,
+    ElButton, ElDialog, ElImage
   },
   props: {
     name: {
@@ -56,19 +61,14 @@ export default defineComponent({
   },
   data() {
     return {
-      isMarkdownPreviewShow: false,
-      source: `
-**If NO \`Linglong Installer Dialog\` popup, you MUST install linglong first:**
-
-### [Click here to install linglong environment.](${import.meta.env.VITE_APP_HOME_PAGE_URL}/guide/start/install.html)
-      `,
+      isInstallDialogShow: false
     };
   },
   methods: {
     onInstall(id: string) {
       console.log("install", id)
       window.location.href = 'og://' + id;
-      this.isMarkdownPreviewShow = true;
+      this.isInstallDialogShow = true;
     },
   },
 });
