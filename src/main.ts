@@ -6,7 +6,11 @@ import { createApp } from 'vue';
 
 import '@element-plus/theme-chalk/dist/index.css';
 
+import VueGtag from 'vue-gtag-next';
 import App from './App.vue';
 
-createApp(App)
-    .mount('#app');
+const app = createApp(App);
+app.use(VueGtag, {
+  property: { id: 'G-JBPRYNBJZ7' },
+});
+app.mount('#app');
