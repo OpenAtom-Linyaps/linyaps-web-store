@@ -1,56 +1,54 @@
-// SPDX-FileCopyrightText: 2017 - 2022 UnionTech Software Technology Co., Ltd.
-//
-// SPDX-License-Identifier: LGPL-3.0-or-later
+<!-- 
+SPDX-FileCopyrightText: 2017 - 2022 UnionTech Software Technology Co., Ltd. 
+SPDX-License-Identifier: LGPL-3.0-or-later 
+-->
 
 <template>
-  <div class='main'>
+  <div class="main">
     <!-- header -->
-    <div class='topbar'>
-      <el-button round type='danger' size='small' @click='gotoLink()'> Get Linglong</el-button>
+    <div class="topbar">
+      <el-button round type="danger" size="small" @click="gotoLink()"> Get Linglong</el-button>
     </div>
     <!-- header -->
 
     <!-- cards -->
-    <div v-loading='dataLoadingFlag'>
-      <div v-if='!appList || appList.length === 0'>
-        <el-empty :image-size='200' />
+    <div v-loading="dataLoadingFlag">
+      <div v-if="!appList || appList.length === 0">
+        <el-empty :image-size="200" />
       </div>
-      <div v-if='appList && appList.length > 0'>
-        <div class='card-gird'>
-          <AppCard v-for='item in appList' :key='item.appId'
-                   :imageURI='item.icon'
-                   :name='item.name'
-                   :id='item.appId'
-                   :description='item.description' />
+      <div v-if="appList && appList.length > 0">
+        <div class="card-gird">
+          <AppCard v-for="item in appList" :key="item.appId" :imageURI="item.icon" :name="item.name" :id="item.appId"
+            :description="item.description" />
         </div>
       </div>
     </div>
     <!-- cards -->
 
     <!-- pagination -->
-    <div class='pagination-body'>
-      <el-pagination
-        @current-change='nextClick'
-        background layout='prev, pager, next'
-        :page-size='size'
-        :hide-on-single-page='true'
-        :total='total'>
+    <div class="pagination-body">
+      <el-pagination @current-change="nextClick" background layout="prev, pager, next" :page-size="size"
+        :hide-on-single-page="true" :total="total">
       </el-pagination>
     </div>
     <!-- pagination -->
   </div>
 </template>
 
-<script lang='ts'>
-import { ElButton, ElPagination, ElEmpty, ElLoadingDirective } from 'element-plus'
+<script lang="ts">
+import { ElButton, ElPagination, ElEmpty, ElLoadingDirective } from 'element-plus';
 import { defineComponent, ref, onMounted } from 'vue';
 import AppCard from './AppCard.vue';
 import axios from 'axios';
+import { useGtag } from 'vue-gtag-next';
 
 export default defineComponent({
   name: 'Main',
   components: {
-    AppCard, ElButton, ElPagination, ElEmpty
+    AppCard,
+    ElButton,
+    ElPagination,
+    ElEmpty,
   },
   directives: {
     loading: ElLoadingDirective,
@@ -72,20 +70,25 @@ export default defineComponent({
       baseURL: import.meta.env.VITE_APP_AXIOS_BASEURL, // url = base url + request url
       timeout: 10000, // request timeout
     });
+    const { pageview } = useGtag();
+
     const getList = (pageIndex = 1, pageSize = size) => {
       dataLoadingFlag.value = true;
-      service.get<AppsResponse>(`/api/v0/web-store/apps`, {
-        params: {
-          page: pageIndex,
-          size: pageSize,
-        },
-      }).then(function(response) {
-        appList.value = response.data.data.list;
-        total.value = response.data.data.total;
-        dataLoadingFlag.value = false;
-      }).catch(function(error) {
-        console.log(error);
-      });
+      service
+        .get<AppsResponse>(`/api/v0/web-store/apps`, {
+          params: {
+            page: pageIndex,
+            size: pageSize,
+          },
+        })
+        .then(function (response) {
+          appList.value = response.data.data.list;
+          total.value = response.data.data.total;
+          dataLoadingFlag.value = false;
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
     };
     onMounted(() => getList());
     return {
@@ -93,8 +96,11 @@ export default defineComponent({
       total,
       size,
       dataLoadingFlag,
-      nextClick(pageIndex: number) {
+      nextClick: (pageIndex: number) => {
         getList(pageIndex);
+        // 记录翻页事件
+        console.log('pageview');
+        pageview({ page_path: `/page/${pageIndex}?pageSize=${size}` });
       },
     };
   },
@@ -142,12 +148,12 @@ interface App {
   flex-direction: row;
 }
 
-.topbar > .el-input {
+.topbar>.el-input {
   width: 300px;
   padding-right: 10px;
 }
 
-.topbar > :nth-child(1) {
+.topbar> :nth-child(1) {
   margin: 10px;
 }
 
