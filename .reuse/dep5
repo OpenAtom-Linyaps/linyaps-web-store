@@ -1,0 +1,45 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: linglong-web-store
+Upstream-Contact: myml <wurongjie@deepin.org>
+Source: https://github.com/linuxdeepin/linglong-web-store
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
+
+# ci
+Files: .github/* .gitlab-ci.yml
+Copyright: None
+License: CC0-1.0
+
+# gitignore #
+Files: .gitignore
+Copyright: None
+License: CC0-1.0
+
+# json conf yaml
+Files: *.json *conf *.yaml
+Copyright: None
+License: CC0-1.0
+
+# README&doc
+Files: README*
+Copyright: None
+License:  CC-BY-4.0
+
+# img
+Files: public/assets/application-x-executable.svg public/favicon.ico src/assets/logo.png
+Copyright: UnionTech Software Technology Co., Ltd.
+License: LGPL-3.0-or-later
+
+# env
+Files: .env env.d.ts
+Copyright: None
+License:  CC-BY-4.0
+
+# html
+Files: index.html
+Copyright: None
+License:  CC-BY-4.0
