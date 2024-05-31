@@ -80,6 +80,8 @@ export default defineComponent({
           params: {
             page: pageIndex,
             size: pageSize,
+            repo: 'stable',
+            channel: 'main',
           },
         })
         .then(async (response) => {
@@ -93,6 +95,8 @@ export default defineComponent({
                 params: {
                   page: randomPage,
                   size: pageSize,
+                  repo: 'stable',
+                  channel: 'main',
                 },
               })
             list.push(...resp.data.data.list.filter(app => !app.icon.endsWith("application-x-executable.svg")))
